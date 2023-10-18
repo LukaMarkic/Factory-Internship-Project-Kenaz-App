@@ -1,0 +1,451 @@
+[
+    {
+        "categoryId": "category-05",
+        "title": "Why companies still want in-house data centres",
+        "date": "Oct 5th 2023",
+        "numberOfComments": 5,
+        "imageUrl": "https://www.economist.com/cdn-cgi/image/width=1096,quality=80,format=auto/content-assets/images/20231007_WBP503.jpg",
+        "rating": 9,
+        "featured": true,
+        "authorId": "author-01",
+        "content": [
+            {
+                "type": "text",
+                "content": "Sometimes it seems as if the cloud is swallowing corporate computing. Last year businesses spent nearly $230bn globally on external (or “public”) cloud services, up from less than $100bn in 2019. Revenues of the industry’s three so-called “hyperscalers”, Amazon Web Services (aws), Google Cloud Platform and Microsoft Azure, are growing by over 30% a year. The trio are beginning to offer clients newfangled artificial-intelligence (ai) tools, which big tech has the most resources to develop. The days of the humble on-premises company data centre are, surely, numbered."
+            },
+            {
+                "type": "source",
+                "content": "Economist",
+                "url": "https://www.economist.com/business/2023/10/05/why-companies-still-want-in-house-data-centres"
+            }
+        ]
+    },
+      {
+        "categoryId": "category-05",
+        "title": "How China’s EV Boom Caught Western Car Companies Asleep at the Wheel",
+        "date": "October 14, 2023",
+        "numberOfComments": 10,
+        "imageUrl": "https://media.wired.com/photos/6529888dd5cf5f22a91c0c77/master/w_1920,c_limit/How-China%E2%80%99s-EV-Boom-Caught-Car-Companies-Napping-Gear.jpg",
+        "rating": 6,
+        "featured": true,
+        "authorId": "author-03",
+        "content": [
+          {
+            "type": "text",
+            "content": "“YOU WON’T BELIEVE what’s coming,” warned the title of a January 2023 video from the Inside China Auto YouTube channel. “Europe’s premium car makers aren’t ready for this,” warned another video from the same channel, uploaded in July.  Produced by Shanghai-based automotive journalist Mark Rainford, a former communications executive for Mercedes-Benz, the channel is one of several by China-based Western commentators agog at what they are seeing—and driving.  The channels tell salivating viewers that the tech-heavy yet keenly priced Chinese electric vehicles that have appeared on China's domestic market since the end of the global pandemic will soon wipe the floor with their Western counterparts.  Auto executives in Europe, America, and Japan “didn’t believe China’s car companies could grow so fast,” Rainford told me. “That’s an easy mistake to make from outside the country. You see a lot of stories about China—they don’t hit home until you live here and experience it.”  Rainford worked at Mercedes-Benz for eight years—in the UK, Germany, and latterly China—and has lived in China, in two stints, for five years. He started his YouTube channel to cater to the growing interest in Chinese cars from overseas. His most popular video—“Think You Know Chinese Cars? Think Again. You Won’t Believe What’s Coming”—has had more than 800,000 views. It’s an 84-minute wander through the 11 immense halls of the Guangzhou Auto Show, previewing the automotive near future. He highlighted cars from 42 brands, almost all of which are largely unknown outside China. Some of the eye-popping EVs he featured would be considered concept cars at a Western auto show, but many are already on the road in China.  These “digital bling” cars, as Oxford-based Ade Thomas, founder of the five-year-old World EV Day, calls them—some with navigation on autopilot (NOA) systems, a precursor to full-on autonomous driving; others with face-recognition cameras that monitor driver fatigue; more equipped with multiple high-res dashboard screens pimped with generative AI and streaming video—are not inferior, unsafe copycats, as mainstream Asian and Western automakers have often urged us to believe, they are standards-compliant, road-going smartphones.  This “iPhone on wheels” epithet has been used by Tesla for many years, with traditional auto brands—led, so the caricature goes, by sensible German men in suits on eye-watering remuneration packages—reportedly flailing in Elon Musk’s wake."
+          },
+          {
+            "type": "image",
+            "url": "https://media.wired.com/photos/6529888d6ad33062ca771395/master/w_1600,c_limit/Huawei%20has%20paired%20with%20state-owned%20Chery%20Automobile%20to%20launch%20upscale%20EV%20marque%20Luxeed,%20which%20is%20claimed%20%E2%80%9Cwill%20be%20superior%20to%20Tesla%E2%80%99s%20Model%20S%E2%80%9D.jpeg"
+          },
+          {
+            "type": "text",
+            "content": "The description is an almost exact fit for Xiaomi, one of China’s leading smartphone brands. It has so far invested a billion dollars in becoming an EV manufacturer. Meanwhile, telecoms equipment giant Huawei has paired with state-owned Chery Automobile for the November launch of the upscale EV marque Luxeed. “It will be superior to Tesla’s Model S,” promised Richard Yu Chengdong, head of Huawei’s car unit."
+          },
+          {
+            "type": "subtitle",
+            "content": "Toppling Tesla"
+          },
+          {
+            "type": "text",
+            "content": "With as many as 300 companies manufacturing EVs in China, the competition is intense, but one homegrown brand is much, much bigger than the rest. Steered by a billionaire CEO, BYD may well soon eclipse Tesla in both tech savvy and sales.  Despite their joint billionaire status, Musk’s background is markedly different from BYD’s founder. Wang Chuanfu was born to a family of poor farmers in Wuwei County, Anhui, an eastern province of China. Musk’s father was a wealthy property developer and partly owned a Zambian emerald mine. While Elon Musk micromanages several disparate tech companies, Chuanfu runs just one. But BYD is a single company across several sectors, from photovoltaics to EVs. BYD is Tesla’s main competitor in China, and it is soon to be a serious competitor to many of the world’s auto brands. The 28-year-old company is a Warren Buffet-backed manufacturer that’s dominant in EV battery production for itself and, among others, Tesla. Indeed, BYD is second only to CATL in Chinese battery production, a sector in which China arguably leads the world.  “The [EV] industry is changing at a pace even faster than imagined,” Wang told Forbes China in 2021, adding that he expected new EV sales to account for 70 percent of the Chinese market by 2030.  BYD—the pinyin initials of the company's Chinese name, Biyadi, now back-formed into the Western-friendly slogan \"Build Your Dream\"—entered the auto business in 2003, starting with batteries for internal-combustion-engine (ICE) vehicles before selling a plug-in hybrid car as early as 2008. The company ceased production and sales of ICE vehicles in March last year.  It’s the dominant automaker in China, accounting for 37 percent of the huge domestic market and heading for a full half by 2026. In 2022, BYD made four of the top 10 EVs sold worldwide. BYD currently ranks first in China for patented technologies, owning or filing nearly 30,000 of them. In 2020, it launched the long-range Blade lithium iron phosphate (LFP) battery, which is far less prone to spontaneous combustion than other EV batteries.  US-based BYD executive vice president Stella Li told Bloomberg earlier this year that the company wants to expand by building cars in Europe, probably France.  Even Musk acknowledges that BYD is now a significant player, but in a 2011 Bloomberg interview he mocked one of the company’s first vehicles. “Have you seen their car?” Musk asked the reporter (she had), giggling that he didn’t reckon BYD to be competition for Tesla.“I think their focus should be making sure they don’t die in China,” he scoffed.  Responding to a snippet of the 2011 interview posted on X, Musk admitted that many things have changed since then; he’s no longer laughing at BYD. “That was many years ago,” Musk conceded in May. “Their cars are highly competitive these days.”  And then some. According to a Hong Kong Stock Exchange announcement on October 2, BYD sold more than 2 million battery-powered EVs and plug-in hybrids between January and September. September’s sales were up 43 percent year on year, and the company could sell 3.6 million battery EVs and plug-in hybrids for the full year, including electric buses and trucks. In September, it sold 28,039 electric or part-electric vehicles in overseas markets, a 12 percent increase over August, and it is looking to massively ramp up sales in Asia, Australia, New Zealand, South America, and Europe. (A Trump administration-era 27.5 percent tariff still applies to Chinese EV imports into the US, and they are excluded from a $7,500 federal tax exemption.)  Tesla remains the global market leader in pure battery vehicles, but only just; BYD is likely to seize the crown before the end of this year. After that, an export boom could see BYD soon become the world’s number one car brand by numbers.  Unlike Tesla, BYD sells a battery-powered EV in China for $26,000, and because it makes its own batteries, semiconductors, and even seat upholstery, it turns a tidy profit on it too. Other Chinese battery EV makers—including Nio, Li Auto, Xpeng, and Hi Phi—are also piling on the sales."
+          },
+          {
+            "type": "subtitle",
+            "content": "Auto History Repeating"
+          },
+          {
+            "type": "text",
+            "content": "In short, Chinese companies are threatening the 100-year hegemony of General Motors, Ford, Volkswagen, and other “legacy” auto brands. The China-aware auto industry analysts I’ve spoken to for this piece don’t use those air quotes—they predict a gradually-then-suddenly dominance from BYD and the other Chinese car makers, with legacy brands going the same way as Volvo (bought by China’s Geely in 2010) and MG (bought by Nanjing Automobile in 2005 and subsequently acquired by state-owned SAIC Motor in 2007).  Tu Le, the founder of US-based consultancy Sino Auto Insights, is highly critical of auto CEOs from legacy brands, who he says should have reacted much earlier to the EV threat Chinese companies posed to their businesses. “These people are getting paid 20, 30, 40, 50 million euros,” he says to me on a Zoom call. “It’s their job to know these things, right? It can’t be like, ‘Oh man, China moves so fast, so we didn’t see it coming.’ Well, that’s your job.”  For ex-Chrysler executive Bill Russo, this failure by the traditional car industry to see what was coming down the pike is a recurring self-harm. In the 1980s, legacy brands didn’t take seriously the threat from Toyota, Nissan, and other East Asian car brands until it was too late, Russo says. The same happened with Tesla, and now history repeats itself with China’s emergence as an EV powerhouse.  Legacy auto companies “tend not to take seriously an emerging threat,” Russo says, speaking from his office in Shanghai where he runs Automobility, a strategy and investment advisory firm. “They thought that because the math didn’t work for them, it can’t work for others. The idea of building profitable small cars was a problem they let others solve. Building profitable electric vehicles was a solvable problem that they left for Tesla. The car industry resists change.”  Tu agrees. Industry executives “have known about EVs for a very long time—Tesla has been around for 20 years, right? They just thought it was a flash in the pan,” he says. “They had no familiarity with battery power, so they leaned into what they were comfortable with” and largely ignored what startups in the US and battery companies in China were doing.  Another industry veteran who identified the threat from China early on was Andy Palmer, sometimes described as the “grandfather of the electric car.” In 2005, he started Nissan’s development of the Leaf, the world’s first mass-market electric vehicle. He became Nissan’s global chief operating officer, the third-most-powerful executive at the Japanese carmaker. Palmer subsequently became CEO of Aston Martin, leaving in 2020 to lead electric-bus maker Optare. Today he’s interim CEO at PodPoint, a UK provider of EV charging stations.  Palmer says he's been cautioning anyone who would listen, “increasingly vocally,” that China would become a threat to Western and Asian auto interests, and that letting China succeed would be folly. “I’ve been warning about China for 15 years,” he says. “I warned the Japanese, UK, and US governments that there was a real risk that China might get this right. And, ultimately, that has proven to be the case.”  Why issue such warnings? “Just in the UK alone, the auto industry sustains 800,000 jobs,” said Palmer (this rises to 4.3 million in the US). “Automotive engineering also casts a shadow on other parts of the economy. When you lose your automotive industry, you lose engineering expertise, specialist education, and science-based capability. Governments worldwide should support their auto industries because it’s fundamental to any country’s GDP and future wealth base.”  By failing to back its auto industry with sufficient subsidies and other support, the UK government “has been asleep at the wheel,” says Palmer.  BYD is not state owned, but it’s operating in a planned economy that favors certain sectors, and among these has been the automotive industry. “China has a vast market, it has economies of scale, it has subsidies and encouragement from central government, and it has an international strategy that seeks dominance in overseas markets with a product—affordable electric vehicles—that Western manufacturers aren’t able to make,” says Palmer. He saw China’s long-term game plan firsthand when, in 2005, he was a board member of a 50-50 joint venture between Nissan and China’s Dongfeng Motor Corporation.  “I was a rare foreigner in the middle of that environment,” says Palmer, “and I saw how China carried out its series of five-year plans. Even back then, it was apparent that China had concluded that they couldn’t compete with the West with internal combustion engines. Their risky but innovative solution was that the way to leapfrog the West was through what they called ‘new energy vehicles.’”  Some consumer subsidies are being phased out this year, but Chinese state backing for these NEVs has nevertheless been deep, meaningful, and planned."
+          },
+          {
+            "type": "subtitle",
+            "content": "The Electric State"
+          },
+          {
+            "type": "text",
+            "content": "China has been planning the transition to electric power in transportation for decades, with state backing championed by Wan Gang, a former minister of science and technology.  Wan—a Germany-based fuel-cell engineer at Volkswagen-Audi earlier in his career—convinced leaders more than 20 years ago to bet on what became NEVs, selling this leapfrogging of overseas carmakers as a way to boost economic growth, tackle China’s air pollution, and reduce its dependence on oil imports.  “The primary motivation for China to push for EVs was energy security,” says Russo. “Second was industrial competitiveness, and a far distant third was sustainability.”  Wan’s strategy was to use government sweeteners to first attract makers, and then consumers kick-started China’s dominance in EVs. Makers had to be supported, says Palmer, because without subsidies such a novel, innovative sector could not be profitable for at least several years.  “Chinese companies received instructions from central government that they had to move in the direction of EVs. Essentially, the government said it would be stimulating the sale of those vehicles. Initially, we didn’t have that benefit in the West,” he says. “When it comes to these moments of change, there are advantages to having a one-party state,” Palmer adds wryly.  David Tyfield, a professor of political economy at Lancaster University and author of the 2019 book Liberalism 2.0 and the Rise of China, tells me there is “no future for the EV which does not feature significant, if not disproportionate, Chinese presence. Chinese companies are just too far in the lead across the whole supply chain of the electric vehicle: from the minerals to the batteries to the building of the cars.”  Policymakers worldwide fret over China’s ambition to control entire supply chains—for instance, the minerals inside EV batteries. Such domination by China is claimed to threaten individual economies and the (Western-led) global innovation system.  “Global markets are now flooded with cheaper electric cars. And their price is kept artificially low by huge state subsidies,” complained European Commission president Ursula von der Leyen earlier this year.  Speaking in Beijing last month, shortly after the EU opened an anti-subsidy investigation against China, Valdis Dombrovskis, the EU’s trade commissioner, said the trade bloc was “open to competition” in the EV sector, but “competition needs to be fair.”  Responding to the imports probe, Cui Dongshu, secretary general of the China Passenger Car Association, urged the EU to cease the economic saber rattling. “I firmly oppose the EU’s evaluation of China’s New Energy Vehicle exports, not because of huge national subsidies, but because of the strong competitiveness of China’s industrial chain under full market competition,” wrote Cui on his personal WeChat account, almost certainly echoing official state views.  His Chinese-language blog is essential reading for automotive industry watchers. Alongside insider commentary, it regularly posts sales figures. On September 24, Cui reported that from January to August 2023, China’s cumulative automobile exports—EV and ICE, including trucks, too—hit 3.22 million units, with exports expanding at a rate of 65 percent, knocking Japan off its perch as the world’s largest automobile exporter.  “From January to August 2023, 1.08 million new energy vehicles were exported, a year-on-year increase of 82 percent,” wrote Cui. Nearly all of these, some 1.04 million, were passenger vehicles, a 90 percent increase year-on-year."
+          },
+          {
+            "type": "subtitle",
+            "content": "EU First, US Later"
+          },
+          {
+            "type": "text",
+            "content": "BYD now ships cars to Thailand, the UAE, Japan, Australia, Norway, the UK, Germany, Brazil, Costa Rica, and Mexico. It’s already the best-selling EV brand in Singapore. The company has an electric bus division in the US but no official sales channel for its cars.  “The US market isn’t under our current consideration,” Stella Li, a senior vice president at BYD, told Bloomberg earlier this year. She said that President Joe Biden’s “new green deal” Inflation Reduction Act may “slow down EV adoption in the US,” because it will make affordable EVs inaccessible to American consumers. n Europe, BYD’s first offering—the Atto 3, a four-door family car— sells for $38,000, yet it’s just $20,000 in China. It’s the “biggest-selling car you’ve never heard of,” remarked a video from UK review website Carbuyer.  The Atto 3 will soon be joined in Europe by the oddly named Seal, a sleek executive sedan that will be a cheaper premium rival to the likes of the BMW i4, Hyundai Ioniq 6, and Tesla’s Model 3.  Both BYD cars look traditional, inside and out—which isn’t surprising, as they were styled by a team led by German car designer Wolfgang Egger, former design chief at Alfa Romeo, and BYD’s lead designer since 2017. Cars from smaller brands, now trickling onto the EU market, look—and sound—weirder. Some, such as the HiPhi Z from Shanghai-based technology startup Human Horizons, founded in 2017, push design norms further. This $119,000 hypercar does 0 to 60 in 3.8 seconds and features a heads-up display, roof lidar, and programmable LED screens on headlights and side panels for displaying emojis and personalized messages to folks outside.  “The Z also has projectors that beam messages onto the road so that you can tell pedestrians they can safely cross,” says Inside China Auto’s Rainford."
+          },
+          {
+            "type": "subtitle",
+            "content": "China Chic"
+          },
+          {
+            "type": "text",
+            "content": "Such tech features play well in China, where the car-buying demographic skews younger than in the West. Few Chinese consumers have parents or grandparents addicted to driving. Instead, post-1950s China was the “kingdom of the bicycle.” Chairman Mao Zedong’s first Five-Year Plan (1953-1957) promoted the bicycle as a symbol of proletarian progress, merging local cycle producers into national champions such as the iconic Flying Pigeon company of Tianjin, founded in 1950, that had privileged access to scarce materials.  Bicycles fell out of fashion in the early 2000s, and China enthusiastically embraced the car. But as this was still the ICE age, the mass adoption of car use fouled the air. EVs are cleaner, and, when the subsidies were still in place, they were cheaper too.  Tesla remains a prestigious, if pricey, purchase in China, but homegrown brands have benefited from the “China chic” guochao phenomenon, a consumer preference for domestic products and services. In cars, this has resulted in tech-laden models that appeal to the new, younger generation of buyers.  Chinese consumers want multiple screens, internet connectivity, self-driving features, chatbots, massage chairs, exterior cinema projectors, and more.  While some may worry that a proliferation of in-car entertainment options on multiple screens might lead to distracted driving and deaths, this isn’t a key concern in China. “The MG Cyberster is a two-seater car, but it has managed to squeeze four separate screens into the cockpit-like setup, with three curved around the back of the steering wheel and a fourth on the center console,” says Rainford. The screens are for watching TV and videos, and gaming, not just navigation. Interestingly, some Western auto brands, seemingly adopting the “If you can’t beat ’em, join ’em” approach, are buying their way to this younger Chinese consumer. Mercedes-Benz has reportedly had talks with Nio that could see the German automaker investing and gaining access to the Chinese company’s R&D capabilities. There have been other German-Chinese auto deals recently too—the latest being VW investment in XPeng to collaborate on EVs.  However, never-ending congestion could put the brake on EV sales in China. Rainford might be a car guy through and through, influencing others to buy Chinese EVs with his YouTube videos, but he doesn’t own one. Instead, he dots around on a two-wheeler. “I drive an electric scooter here,” he admits. “It’s the fastest way to get around.”  “Electric cars get all the headlines, but the truly successful electric vehicle in China over the last 15 years has been the scooter,” notes Lancaster University’s Tyfield. “It has had no government support, and its use is often penalized in some cities. The official view is that success means more and bigger roads and more and bigger cars. But millions instead choose the electric scooter.”  Rainford agrees, adding that parking assistance modes are useless when there’s nowhere to park. “The scooter can go everywhere,” he said. “It’s freedom.”"
+          },
+          {
+            "type": "source",
+            "content": "WIRED",
+            "url": "https://www.wired.com/story/how-chinas-ev-boom-caught-western-car-companies-asleep-at-the-wheel/"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Microsoft closes $69 billion Activision deal after Britain's nod",
+        "date": "October 13, 2023",
+        "numberOfComments": 12,
+        "imageUrl": "https://www.reuters.com/resizer/QB7a757tuD4aMDQcjeslf6zcOdY=/1200x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/RUP7JO5KPZMRPIN436ARZAQ5LI.jpg",
+        "rating": 6,
+        "featured": false,
+        "authorId": "author-04",
+        "local": false,
+        "content": [
+          {
+            "type": "text",
+            "content": "Xbox maker Microsoft (MSFT.O) closed its $69 billion deal for Activision Blizzard (ATVI.O) on Friday, swelling its heft in the video-gaming market with best-selling titles including \"Call of Duty\" to better compete with industry leader Sony (6758.T).  Originally unveiled in January 2022, the biggest deal in the gaming industry cleared its final big hurdle - an approval from Britain - earlier in the day after Microsoft agreed to sell streaming rights for Activision's games to allay competition concerns. The completion is a major win for the U.S. tech firm in its push to attract more people to its Xbox consoles and Game Pass subscription service. Microsoft's gaming revenue trails that of Sony, whose PlayStation consoles outsell the Xbox.  \"Today is a good day to play,\" Microsoft Gaming CEO Phil Spencer said in a post on the X social media platform, formerly known as Twitter. He will oversee the Activision business, with the video-game publisher's CEO Bobby Kotick staying on until end-2023. Spencer has touted the purchase as a way for Microsoft to break into the more than $90-billion market for mobile games.  Activision makes popular mobile titles including \"Candy Crush Saga\" and \"Call of Duty Mobile\" - games that were excluded from the cloud streaming deal Microsoft signed with France's Ubisoft Entertainment (UBIP.PA) to secure approval from Britain.  \"Microsoft instantly has more than $3 billion of mobile revenues,\" said Wedbush Securities analyst Michael Pachter. \"The big benefit is that Microsoft has a vision that they are going to deliver games through a subscription, and they need more content to give subscribers. So, this is a big step toward having sufficient content,\" he said."
+          },
+          {
+            "type": "subtitle",
+            "content": "REGULATORY HURDLES"
+          },
+          {
+            "type": "text",
+            "content": "The deal still faces opposition from the U.S. Federal Trade Commission, which failed in its previous attempt to block the purchase. The FTC said on Friday it was focused on its appeal, but would \"assess\" Microsoft's agreement with Ubisoft. But analysts believe that will change little. \"The impact of an FTC challenge will be limited to incremental concessions in the future,\" D.A. Davidson analyst Gil Luria said. The main hurdle came from Britain's Competition and Markets Authority, which had originally blocked the deal in April over concerns it could give the U.S. tech giant a stranglehold on the nascent cloud gaming market.  The deal was the biggest test of the CMA's global power to take on the tech giants since Britain left the European Union.  The regulator said on Friday \"sticking to its guns\" in the face of criticism from the merging companies had delivered an outcome that was better for competition, consumers and economic growth.  Microsoft's concession on streaming was a \"game changer\", the CMA said, adding that it was the only competition agency globally to have delivered this outcome.   \"The new deal will stop Microsoft from locking up competition in cloud gaming as this market takes off, preserving competitive prices and services for UK cloud gaming customers,\" it said in a statement.  The CMA's block had drawn fury from the merging parties, with Microsoft saying that Britain was closed for business.  The British government only offered limited support to the CMA, with Finance Minister Jeremy Hunt saying that while he did not want to undermine its independence, regulators also needed to focus on encouraging investment.  CMA Chief Executive Sarah Cardell said the regulator had \"delivered a clear message to Microsoft that the deal would be blocked unless they comprehensively addressed our concerns and we stuck to our guns on that.\"  She said the CMA took its decisions \"free from political influence\" and it would not be \"swayed by corporate lobbying\".  The CMA would see it as a victory, but would need to be careful not to over-regulate the tech sector, Quilter Cheviot equity analyst Ben Barringer said.  \"There are fears the UK is a bad place to do business and the tech industry in particular will be watching its moves closely,\" he said.  The European Commision gave the green light in May when it accepted Microsoft's commitments to license Activision's games such as \"Overwatch\" and \"World of Warcraft\" to other platforms."
+          },
+          {
+            "type": "source",
+            "content": "Reuters",
+            "url": "https://www.reuters.com/markets/deals/uk-antitrust-regulator-clears-microsofts-acquisition-activision-2023-10-13/"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Meta takes steps to remove Hamas-related disinformation",
+        "date": "October 13, 2023",
+        "numberOfComments": 42,
+        "imageUrl": "https://www.japantimes.co.jp/uploads/imported_images/uploads/2023/07/np_file_239847.jpeg",
+        "rating": 2,
+        "featured": true,
+        "authorId": "author-02",
+        "content": [
+          {
+            "type": "text",
+            "content": "Meta (META.O) said on Friday it was taking steps including removing praise and substantive support for Hamas from its platforms after the European Union reprimanded social media companies for not doing enough to tackle disinformation.  Since Palestinian militant group Hamas attacked Israel on Oct. 7, misleading claims and doctored images have spread on Facebook and other social media.  In the three days after the attack, Meta said it removed or marked as disturbing more than 795,000 pieces of content in Hebrew or Arabic. Meta is also temporarily expanding its violence and incitement policy and removing content that clearly identifies hostages taken by Hamas, even if it is being done to condemn or raise awareness of their situation.  Content with blurred images of victims is still allowed but the company will prioritise the safety and privacy of kidnapping victims if unsure or unable to make a clear assessment, it said. Following the attack, Hamas has taken scores of Israeli and foreign hostages to the Palestinian enclave of Gaza.  Meta said it was aware of Hamas' threats to broadcast footage of the hostages and it would swiftly remove any such content and prevent copies being re-shared.  It is also lowering the threshold at which its technology takes action to avoid recommending content that potentially violates rules across its Facebook, Instagram and Threads platforms."
+          },
+          {
+            "type": "text",
+            "content": "While Hamas is banned from the platforms, Meta allows social and political discourse - such as news reporting, human rights related issues, or academic, neutral and critical discussion.  The European Commission has pressured social media platforms to remove illegal and harmful content to comply with its Digital Services Act (DSA), a breach of which can result in big fines.  Meta's response contrasts with that of X, formerly known as Twitter, which has asked the Commission to provide more information of violations on its site. The Commission has opened an investigation into X."
+          },
+          {
+            "type": "source",
+            "content": "Reuters",
+            "url": "https://www.reuters.com/technology/meta-takes-steps-remove-hamas-related-disinformation-2023-10-13/"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Samsung flags 78% profit drop as chip demand remains weak",
+        "date": "October 11, 2023",
+        "numberOfComments": 4,
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/230105220448-01-samsung-flag-012722-file.jpg?c=16x9&q=h_438,w_780,c_fill",
+        "rating": 4,
+        "featured": true,
+        "authorId": "author-02",
+        "content": [
+          {
+            "type": "text",
+            "content": "Samsung warned that operating profit in the third quarter likely plunged 78% as it continues to contend with lower than usual demand for consumer devices.  The South Korean tech giant released earnings estimates Wednesday, forecasting operating profit of about 2.4 trillion Korean won ($1.8 billion) for the three months ended September. That compares with 10.85 trillion won ($8 billion) in the same period last year.  Revenue was also projected to drop 12.7% from a year ago.  That continues a dreary run for the electronics maker, which has reported major losses in recent months as global economic uncertainty weighs on consumers around the world, leading many people to hold on to their cell phones and laptops longer.  According to Counterpoint Research, “2023 is on track to be the worst year for global smartphone shipments in 10 years,” with shipments forecast to decline 6% to fewer than 1.2 billion units.  In major markets like North America, “consumers are hesitant to upgrade their devices,” the firm noted in an August report."
+          },
+          {
+            "type": "text",
+            "content": "Samsung has already been feeling the effects. The firm’s operating profit plummeted 95% in the first quarter, following a record loss in its semiconductor business. It saw similar results in the second quarter. After a historic supply shortage during Covid, the global semiconductor industry is now seeing a glut in some areas that has driven losses for Samsung, the world’s largest memory chip and smartphone maker.  According to consultancy Bain, “the semiconductor industry’s post-pandemic rebound boosted capacity to the extent that some foresee an oversupply.” In a report last month, Bain suggested the trend was merely cyclical, attributing it to “normal” ups and downs in the industry. Samsung has also told shareholders it anticipates a gradual comeback in global demand in the second half of the year.  This “should lead to an improvement in earnings driven by the component business,” it said in a July earnings statement.  “However, continued macroeconomic risks could prove to be a challenge,” the company cautioned. nalysts believe a downturn in memory chips will also turn around, benefiting manufacturers like Samsung.  In a recent note to clients, Nomura analysts said they expected a recovery in the sector “to accelerate” through the rest of this year.  “The team expects memory prices to remain flat or slightly increase in [the third quarter], then show strong growth in [the fourth quarter],” the analysts wrote, maintaining a buy rating on Samsung’s stock.  The company’s shares climbed 3.5% in Seoul on Wednesday following its announcement."
+          },
+          {
+            "type": "source",
+            "content": "CNN",
+            "url": "https://edition.cnn.com/2023/10/11/tech/samsung-earnings-guidance-q3-2023-intl-hnk/index.html"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Google unveils Pixel 8 built for ‘the generative AI era’",
+        "date": "October 4, 2023",
+        "numberOfComments": 20,
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/231004153150-01-google-new-pixel-8-phone.jpg?c=16x9&q=h_438,w_780,c_fill",
+        "rating": 4,
+        "featured": true,
+        "authorId": "author-02",
+        "content": [
+          {
+            "type": "text",
+            "content": "CNN  —  There’s nothing particularly new about Google’s latest-generation Pixel 8 smartphone hardware. That’s why the company is pushing hard to tout its AI-powered new software, which Google says was built specifically for the “first phone of the generative AI era.”  At a press event in New York City, Google (GOOG) showed off the new Pixel 8 and Pixel 8 Pro devices, which largely look the same as the year prior, albeit with more rounded edges. But inside, its new G3 Tensor chip unlocks an AI-powered world aimed at simplifying your life, from asking the device to summarize news articles and websites to using Google (GOOG) Assistant to field phone calls and tweaking photos to move or resize objects.  The 6.3-inch Pixel 8 and the 6.7-inch Pixel 8 Pro comes with a brighter display, new camera system and longer-lasting battery life. The Pixel 8 is available in three colors – hazel, rose and obsidian – and starts at $699, about $100 less than the baseline iPhone 14 with the same amount of storage. (That’s about $100 more than last year’s Pixel 7). Meanwhile, the Pixel 8 Pro – which touts a polished aluminum frame and a matte back glass this year – now has the ability to take better low-light photos and sharper selfies. It starts at $999 – the same price as the iPhone 15 Pro – and is available in three colors: bay, porcelain and obsidian.  Although these upgrades are mostly incremental, the AI enhancements and related features may appeal to tech enthusiasts who want the latest version of Android and an alternative to Apple or Samsung smartphones."
+          },
+          {
+            "type": "text",
+            "content": "At the same time, Google’s Pixel line remains a niche product. Its global market share for smartphones remains about 1%, according to data from ABI Research. Google also limits sales to only a handful of countries, so keeping the volume low has been strategic as Google remains predominantly a software company with many partners running Android.  Reece Hayden, an analyst at ABI Research, said Google is looking to establish itself as an early market leader amid the “generative AI-related hysteria,” which kicked into high gear late last year with the introduction of ChatGPT. Generative AI refers to a type of artificial intelligence that can create new content, such as text and images, in response to user prompts.  “[Adding it to the Pixel] creates further product differentiation by leveraging internal capabilities that Apple may not have,” said Hayden.  He expects this announcement to be the first of many similar efforts coming to hardware over the next year, especially among brands who’ve already made investments in this area.  Here’s a closer look at what Google announced and some of the standout new AI features:"
+          },
+          {
+            "type": "subtitle",
+            "content": "‘Magic’ camera tools"
+          },
+          {
+            "type": "text",
+            "content": "Google showed off a handful of photo features coming to its Pixel line, including Magic Editor which uses generative AI to reposition and resize a subject. Similarly, a new Audio Magic Eraser tool that lets users erase distracting sounds from videos.  Another tool called Best Take snaps a series of photos and then aggregates the faces into one shot so everyone looks their best. And a a new Zoom enhanced feature lets users pinch to zoom in about 30 times after a photo is taken to focus in on and edit a specific area.  The company said these efforts aim to “let you capture every moment just how you want to remember it.” Although the tools intend to give users more control over their photos, some analysts like Thomas Husson at market research firm Forrester believe it will be harder to distinguish between what’s real and what’s not.  “The fact that Google refers to a ‘Magic Eraser’ will blur the distinction between real photos and heavily edited ones,” Husson said. But he warns an uptick in deepfake apps already makes it hard to decipher the authenticity of some shots. “You don’t really need Google AI for that.”"
+          },
+          {
+            "type": "subtitle",
+            "content": "Smarter Google Assistant"
+          },
+          {
+            "type": "text",
+            "content": "The company said Google Assistant will now sound more realistic when it engages with callers. Google’s screen call tool already lets Assistant field incoming calls, speak to callers and determine who’s on the line before pushing it through to the user. But its robotic voice will sound increasing more natural, the company said.  Google is also bringing the capabilities of its Bard AI chatbot to Google Assistant, so it will be able to do more than set an alarm or tell the weather. With its new generative AI capabilities, it will be able to review important emails in a user’s inbox or reveal more about a hotel that popped up on their Instagram feed. Assistant will also be able to understand user questions in voice, text and images.  “With generative AI on the scene, it’s really creating a lot of new opportunities to build an even more intuitive and intelligent and personalized digital assistant,” Sissie Hsiao, general manager for Google Assistant and Bard, told CNN.  In addition to making Assistant more useful, the tool will make it easier for more users to interact with Google’s six-month-old Bard on interfaces they may already frequently engage with. Last month, Google rolled out a major expansion of Bard, allowing users to link the tool to their Gmail and other Google Workspace tools and making it easier to fact check the AI’s responses.  Google launched Assistant with Bard to a small test group on Wednesday, and it will be more widely available to Android and iOS users in the coming months.  AI is also getting smarter on the Pixel Watch 2 ($349), its second-generation smartwatch. Users can use Bard capabilities via an upgraded Google Assistant watch app to ask it how they slept and get other health insights.  In addition, the Pixel 2 features a new heart rate sensor, which works alongside a new AI-driven heart rate algorithm, to provide a more accurate heart rate reading than before. But Hayden said he doesn’t think more AI will add too much more to its existing value proposition.  “Smart watches already include a fair amount of AI, and Pixel is no different,” he said."
+          },
+          {
+            "type": "source",
+            "content": "CNN",
+            "url": "https://edition.cnn.com/2023/10/04/tech/pixel-8-google-ai/index.html"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Best Buy will soon stop selling DVDs",
+        "date": "October 14, 2023",
+        "numberOfComments": 3,
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/231013161140-best-buy-dvd-store-aisle-file.jpg?c=16x9&q=h_438,w_780,c_fill",
+        "rating": 6,
+        "featured": true,
+        "authorId": "author-02",
+        "content": [
+          {
+            "type": "text",
+            "content": "New York CNN  —  Grab physical DVDs while you still can.  Netflix mailed its last red-enveloped DVD last month. Now Best Buy will stop selling DVDs and Blu-ray discs at the end of the 2023 holiday season, too.  Best Buy says that streaming has made DVDs obsolete and it can use physical space in its stores and warehouses for tech products in higher demand."
+          },
+          {
+            "type": "text",
+            "content": "“To state the obvious, the way we watch movies and TV shows is much different today than it was decades ago,” Best Buy said in a statement. “Making this change gives us more space and opportunity to bring customers new and innovative tech for them to explore, discover and enjoy.”  The media website Digital Bits first broke the news of Best Buy’s move.  Best Buy does not break out its sales from DVDs, but Best Buy currently has 24,000 DVDs listed on its website.  The company has shrunk down aisles of DVDs in recent years.  Best Buy’s exit from the market will leave Walmart, Amazon and Target as the top retailers stocking DVDs, according to Digital Bits. (Pour one out for Blockbuster.)  Walmart reportedly controls 45% of the market for DVDs."
+          },
+          {
+            "type": "source",
+            "content": "CNN",
+            "url": "https://edition.cnn.com/2023/10/14/business/best-buy-dvds-netflix/index.html"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Chipmaker Qualcomm to lay off over 1200 California workers",
+        "date": "October 12, 2023",
+        "numberOfComments": 24,
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/231012153405-qualcomm-campus-san-diego-ca-file-restricted.jpg?c=16x9&q=h_438,w_780,c_fill",
+        "rating": 5,
+        "featured": false,
+        "authorId": "author-03",
+        "content": [
+          {
+            "type": "text",
+            "content": "New York CNN  —  Qualcomm, one of the largest microchip manufacturers globally, is scaling back its workforce.  The San Diego, California-based company will be laying off about 1258 roles in California, according to a filing with the California Employment Development Department. Impacted employees include those based out of San Diego and Santa Clara in multiple roles, from engineers to legal counsel to human resources, with job reductions coming around December 13th.  The layoff news comes about a month after the company announced a deal with Apple to provide 5G chips through at least 2026. Qualcomm is also the chip supplier for the newly announced Meta Quest 3."
+          },
+          {
+            "type": "text",
+            "content": "But in an August call with analysts, Chief Financial Officer Akash Palkhiwala warned that the company would be taking proactive measures to cut costs as the company faces shrinking revenue.  “Given our commitment to operating discipline, we will proactively implement additional cost actions,” Palkhiwala said on the August call. “Until we see sustained signs of improving fundamentals, our operating framework does not assume an immediate recovery.”"
+          },
+          {
+            "type": "source",
+            "content": "CNN",
+            "url": "https://edition.cnn.com/2023/10/12/tech/qualcomm-layoffs/index.html"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "Ag-tech startup Aigen, which sells solar-powered weed-thumping robots, lands $12M",
+        "date": "October 13, 2023",
+        "numberOfComments": 6,
+        "imageUrl": "https://cdn.geekwire.com/wp-content/uploads/2023/08/Aigen_Founders_PhotoCredit_Bohler-768x512.jpeg",
+        "rating": 8,
+        "featured": true,
+        "authorId": "author-01",
+        "content": [
+          {
+            "type": "text",
+            "content": "Aigen raised $12 million in fresh cash, providing a boost for the company rolling out a solar-powered robot that uses advanced computer vision models to spot and kill weeds.  Founded in 2020, the Kirkland, Wash.-based startup recently unveiled the Aigen Element, which features two robotic arms that thump out unwanted plants on farms. Its robots can operate continuously for up to 14 hours and do not need to be plugged in  The company said it is also developing a low-energy AI model that can send real-time crop information to a farmer’s mobile app. The idea is to help farmers reduce carbon emissions, gain field insights, and reduce costs.  A new SEC filing revealed the fresh cash. Kenny Lee, the startup’s co-founder and CEO, confirmed the funding to GeekWire. He did not provide additional details but said the company will announce its investors in the “near future.”  Lee has a background in cybersecurity and co-founded a startup called Weblife.io that was acquired in 2017. He’s joined by co-founder Rich Wurden, a former senior engineer at Seattle electric boat company Pure Watercraft and mechanical engineer at Tesla. The duo met in a climate-focused group chat on Slack that helps engineers pivot their careers to address climate issues.  Aigen is part of a growing crop of Seattle startups using AI to automate labor-intensive farming tasks such as weed control, fertilization, field analysis, and more. Seattle startup TerraClear, for instance, uses machine learning and hardware to remove rocks from fields.  Aigen is similar to Carbon Robotics, a Seattle startup that also sells weed-zapping robots. Carbon raised $30 million in April and won the Hardware/Gadget/Robotics of the Year honors at the GeekWire Awards in May.  One difference between the two startups is that Aigen is completely renewable powered, Wurden previously told GeekWire.  The startup said in a news release that pre-orders for the Element sold out in one day, “further demonstrating the excitement among U.S. commodity farmers for more effective approaches to weeding.”  Shifting pressures including rising costs are pushing farmers to be more open to purchasing ag-tech products, according to a McKinsey & Co. report. The study found that 39% of surveyed farmers worldwide intend to adopt at least one ag-tech product within the next two years.  Funding to ag-tech startups fell last year amid the larger tech downturn and have bounced back more recently, but not nearly at the same level as two years ago.  Aigen raised a $4 million seed round in 2022, bringing its previous funding total to around $7 million. Investors include NEA, AgFunder, Global Founders Capital, ReGen Ventures, Bessemer Venture Partners, Industrious Ventures, E2 Ventures, and Cleveland Avenue."
+          },
+          {
+            "type": "source",
+            "content": "GeekWire",
+            "url": "https://www.geekwire.com/2023/aigen-a-seattle-startup-that-sells-a-solar-powered-weed-thumping-robot-lands-12m/"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "AI and You: The Chatbots Are Talking to Each Other, AI Helps Surgeons Pinpoint Brain Tumors",
+        "date": "October 14, 2023",
+        "numberOfComments": 8,
+        "imageUrl": "https://www.cnet.com/a/img/resize/6ed2cc9ab01de0254c188f1eabae31686f6c58a4/hub/2023/10/13/ad738926-74e8-4c8b-8deb-f4fa3c28e074/abstract-ai-getty.jpg?auto=webp&fit=crop&height=362&width=644",
+        "rating": 9,
+        "featured": true,
+        "authorId": "author-02",
+        "content": [
+          {
+            "type": "text",
+            "content": "After taking time off, I returned this week to find my inbox flooded with news about AI tools, issues, missteps and adventures. And the thing that stood out was how much investment there is in having AI chatbots pretend to be someone else.  In the case of Meta, CEO Mark Zuckerberg expanded the cast of AI characters the tech giant's more than 3 billion users can interact with on popular Meta platforms like Facebook, Instagram, Messenger and WhatsApp. Those characters are based on real-life celebrities, athletes and artists, including musician Snoop Dogg, famous person Kylie Jenner, ex-quarterback Tom Brady, tennis star Naomi Osaka, other famous person Paris Hilton and celebrated English novelist Jane Austen.   \"The characters are a way for people to have fun, learn things, talk recipes or just pass the time — all within the context of connecting with friends and family,\" company executives told The New York Times about all these pretend friends you can now converse with.   Said Zuckerberg, \"People aren't going to want to interact with one single super intelligent AI — people will want to interact with a bunch of different ones.\"  But let's not pretend that pretend buddies are just about helping you connect with family and friends. As we know, it's all about the money, and right now tech companies are in a land grab that's currently pitting Meta against other AI juggernauts, including OpenAI's ChatGPT, Microsoft's Bing and Google's Bard. It's a point the Times noted as well: \"For Meta, widespread acceptance of its new AI products could significantly increase engagement across its many apps, most of which rely on advertising to make money. More time spent in Meta's apps means more ads shown to its users.\""
+          },
+          {
+            "type": "text",
+            "content": "o be sure, Meta wasn't the first to come up with the idea of creating personalities or characters to put a human face on conversational AI chatbots (see ELIZA, who was born in the late '60s.) And it's an approach that seems to be paying off.  Two-year-old Character.ai, which lets you interact with chatbots based on famous people like Taylor Swift and Albert Einstein and fictional characters such as Nintendo's Super Mario, is one of the most visited AI sites and is reportedly seeking funding that would put the startup's valuation at $5 billion to $6 billion, according to Bloomberg. This week Character.ai, which also lets you create your own personality-driven chatbots, introduced a new feature for subscribers, called Character Group Chat, that lets you and your friends chat with multiple AI characters at the same time. (Now's your chance to add Swift and Mario to your group chats.)  But using famous people to hawk AI is only fun if those people are in on it — and by that I mean get paid for their AI avatars. Earlier this month, actor Tom Hanks warned people about a dental ad that used his likeness without his approval. \"Beware!!\" Hanks told his 9.5 million Instagram followers. \"There's a video out there promoting some dental plan with an AI version of me. I have nothing to do with it.\"   Hanks in an April podcast predicted the perils posed by AI. \"Right now if I wanted to, I could get together and pitch a series of seven movies that would star me in them in which I would be 32 years old from now until kingdom come. Anybody can now re-create themselves at any age they are by way of AI or deepfake technology ... I can tell you that there [are] discussions going on in all of the guilds, all of the agencies, and all of the legal firms to come up with the legal ramifications of my face and my voice — and everybody else's — being our intellectual property.\"  Of course, he was right about all those discussions. The Writers Guild of America just ended the writers strike with Hollywood after agreeing to terms on the use of AI in film and TV. But actors, represented by SAG-AFTRA, are still battling it out, with one of the sticking points being the use of \"digital replicas.\" Here are the other doings in AI worth your attention."
+          },
+          {
+            "type": "subtitle",
+            "content": "ChatGPT can now hear and speak — for a price"
+          },
+          {
+            "type": "text",
+            "content": "OpenAI is rolling out new voice and image capabilities in ChatGPT that let you \"have a voice conversation or show ChatGPT what you're talking about.\" The new capabilities are available to people who pay to use the chatbot (ChatGPT Plus costs $20 per month.)  Says the company, \"Snap a picture of a landmark while traveling and have a live conversation about what's interesting about it. When you're home, snap pictures of your fridge and pantry to figure out what's for dinner (and ask follow up questions for a step by step recipe). After dinner, help your child with a math problem by taking a photo, circling the problem set, and having it share hints with both of you.\"  So what's it like to talk to ChatGPT? Wall Street Journal reviewer Joanna Stern describes it as similar to the movie Her, in which Joaquin Phoenix falls in love with an AI operating system named Samantha, voiced by Scarlett Johansson.   \"The natural voice, the conversational tone and the eloquent answers are almost indistinguishable from a human at times,\" Stern writes. \"But you're definitely still talking to a machine. The response time ... can be extremely slow, and the connection can fail — restarting the app helps. A few times it abruptly cut off the conversation (I thought only rude humans did that!)\"  A rude AI? Maybe the chatbots are getting more human after all. "
+          },
+          {
+            "type": "subtitle",
+            "content": "Goodbye, human focus groups; hello, synthetic humans? "
+          },
+          {
+            "type": "text",
+            "content": "Speaking of more humanlike AIs, a company called Fantasy is creating \"synthetic humans\" for clients including Ford, Google, LG and Spotify to help them \"learn about audiences, think through product concepts and even generate new ideas,\" reported Wired.   \"Fantasy uses the kind of machine learning technology that powers chatbots like OpenAI's ChatGPT and Google's Bard to create its synthetic humans,\" according to Wired. \"The company gives each agent dozens of characteristics drawn from ethnographic research on real people, feeding them into commercial large language models like OpenAI's GPT and Anthropic's Claude. Its agents can also be set up to have knowledge of existing product lines or businesses, so they can converse about a client's offerings.\"  Humans aren't cut out of the loop completely. Fantasy told Wired that for oil and gas company BP, it's created focus groups made up of both real people and synthetic humans and asked them to discuss a topic or product idea. The result? \"Whereas a human may get tired of answering questions or not want to answer that many ways, a synthetic human can keep going,\" Roger Rohatgi, BP's global head of design, told the publication. So, the end goal may be to just have the bots talking among themselves. But there's a hitch: Training AI characters is no easy feat. Wired spoke with Michael Bernstein, an associate professor at Stanford University who helped create a community of chatbots called Smallville, and it paraphrased him thus:   \"Anyone hoping to use AI to model real humans, Bernstein says, should remember to question how faithfully language models actually mirror real behavior. Characters generated this way are not as complex or intelligent as real people and may tend to be more stereotypical and less varied than information sampled from real populations. How to make the models reflect reality more faithfully is 'still an open research question,' he says.\""
+          },
+          {
+            "type": "subtitle",
+            "content": "Why ethics and trust matter"
+          },
+          {
+            "type": "text",
+            "content": "Deloitte updated its report on the \"State of Ethics and Trust in Technology\" for 2023, and you can download the 53-page report here. It's worth reading, if only as a reminder that the way AI tools and systems are developed, deployed and used is entirely up to us humans.   Deloitte's TL;DR? Organizations should \"develop trustworthy and ethical principles for emerging technologies\" and work collaboratively with \"other businesses, government agencies, and industry leaders to create uniform, ethically robust regulations for emerging technologies.\"  And if they don't? Deloitte lists the damage from ethical missteps, including reputational harm, human damage and regulatory penalties. The researcher also found that financial damage and employee dissatisfaction go hand in hand. \"Unethical behavior or lack of visible attention to ethics can decrease a company's ability to attract and keep talent. One study found employees of companies involved in ethical breaches lost an average of 50% in cumulative earnings over the subsequent decade compared to workers in other companies.\"  The researcher also found that 56% of professionals are unsure if their companies have ethical guidelines for AI use, according to a summary of the findings by CNET sister site ZDNET."
+          },
+          {
+            "type": "subtitle",
+            "content": "Working on the margins for brain surgery"
+          },
+          {
+            "type": "text",
+            "content": "One of the challenges in removing brain tumors is for surgeons to determine how much around the margins of the tumor they need to remove to ensure they've excised all the bad stuff. It's tricky business, to say the least, because they need to strike a \"delicate balance between maximizing the extent of resection and minimizing risk of neurological damage,\" according to a new study.  That report, published in Nature this week, offers news about a fascinating advance in tumor detection, thanks to an AI neural network. Scientists in the Netherlands developed a deep learning system called Sturgeon that aims to assist surgeons in finding that delicate balance by helping to get a detailed profile of the tumor during surgery.    You can read the Nature report, but I'll share the plain English summary provided by New York Times science writer Benjamin Mueller: \"The method involves a computer scanning segments of a tumor's DNA and alighting on certain chemical modifications that can yield a detailed diagnosis of the type and even subtype of the brain tumor. That diagnosis, generated during the early stages of an hours-long surgery, can help surgeons decide how aggressively to operate.\"  In tests on frozen tumor samples from prior brain cancer operations, Sturgeon accurately diagnosed 45 of 50 cases within 40 minutes of starting that DNA sequencing, the Times said. And then it was tested during 25 live brain surgeries, most of which were on children, and delivered 18 correct diagnoses.  The Times noted that some brain tumors are difficult to diagnose, and that not all cancers can be diagnosed by way of the chemical modifications the new AI method analyzes. Still, it's encouraging to see what could be possible with new AI technologies as the research continues."
+          },
+          {
+            "type": "subtitle",
+            "content": "AI word of the week: AI"
+          },
+          {
+            "type": "text",
+            "content": "Given all the talk above about how AIs are being used to create pretend versions of real people (Super Mario aside), the word I'd pick for the week would be \"anthropomorphism,\" which is about ascribing humanlike qualities to nonhuman things. But I covered that in the Aug. 19 edition of AI and You.  So instead, I offer up the Council of Europe's definition of \"artificial intelligence\":  A set of sciences, theories and techniques whose purpose is to reproduce by a machine the cognitive abilities of a human being. Current developments aim to be able to entrust a machine with complex tasks previously delegated to a human.  However, the term artificial intelligence is criticized by experts who distinguish between \"strong\" AI (who are able to contextualize very different specialized problems completely independently) and \"weak\" or \"moderate\" AI (who perform extremely well in their field of training). According to some experts, \"strong\" AI would require advances in basic research to be able to model the world as a whole and not just improvements in the performance of existing systems.  For comparison, here's the US State Department quoting the National Artificial Intelligence Act of 2020: The term \"artificial intelligence\" means a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations or decisions influencing real or virtual environments. "
+          },
+          {
+            "type": "source",
+            "content": "CNET",
+            "url": "https://www.cnet.com/tech/computing/ai-and-you-the-chatbots-are-talking-to-each-other-ai-helps-surgeons-pinpoint-brain-tumors/"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "PlayStation Access Controller Makes Gaming More Seamless for People With Disabilities",
+        "date": "October 12, 2023",
+        "numberOfComments": 7,
+        "imageUrl": "https://www.cnet.com/a/img/resize/8d77ad4b90f79499fc8651621ef198c66d400b4a/hub/2023/10/04/e0306bee-0ed8-4ec4-aea2-a929cf6238dd/playstation-access-controller.jpg?auto=webp&fit=crop&height=108&width=196",
+        "rating": 8,
+        "featured": true,
+        "authorId": "author-01",
+        "content": [
+          {
+            "type": "text",
+            "content": "Announced earlier this year, Sony has built a customizable controller kit for the PlayStation 5 designed for players with disabilities, and it invited CNET to play around with it. The Access controller features large, swappable buttons and stick caps, and players can configure the button layout to suit their needs. The controller also sits flat on a table or wheelchair tray, making it easier to use and access all commands. It's available for preorder now, and will be released Dec. 6, costing $90.  Alvin Daniel, senior technical program manager at Sony Interactive Entertainment, said having accessible games and consoles isn't enough if the controller isn't also accessible. \"Our PlayStation Studios have done an amazing job with each title and really pushing the boundaries as far as accessible gaming,\" Daniel said \"The critical link in that chain is the controller.\" The Access controller is circular and features buttons all along the edge, as well as a joystick jutting out from the side. It can be played at any 360-degree position, so you can set it to operate however best suits your needs and mobility. It also has four expansion ports so players can attach any additional controllers or accessories. "
+          },
+          {
+            "type": "text",
+            "content": "The Access controller is circular and features buttons all along the edge, as well as a joystick jutting out from the side. It can be played at any 360-degree position, so you can set it to operate however best suits your needs and mobility. It also has four expansion ports so players can attach any additional controllers or accessories.  As someone who's disabled, you're given tons of accessible equipment that feels medical; it feels like something that's from the hospital,\" said Cesar Flores, an accessibility consultant who worked alongside the Access controller team. He says what sets this PlayStation controller apart is, \"If you look closely on each of those buttons, there's tiny X's, squares, triangles -- that's so special. That's the difference right there, because that really makes it so I feel like I'm just going to game.\"  The Access controller sells for $90 -- about $20 more than the DualSense wireless controller, and with a similar battery life.   Microsoft also released a $100 Xbox Adaptive Controller in 2018 to promote accessibility for gamers.  PlayStation joins a growing list of brands and companies that have expanded their accessibility offerings in recent years. Apple has released features like People Detection, which lets blind and low-vision iPhone and iPad users know how close someone is to them, and Live Captions on iPhone, iPad and Mac help people follow along with audio and video on FaceTime, video conferencing apps and streaming media. Google, meanwhile, has unveiled features like Live Transcribe, which offers real-time speech-to-text transcriptions for people who are deaf or hard of hearing, and Guided Frame, which helps blind and low-vision Pixel users take selfies.   This larger shift is indicative of heightened awareness around the importance of accessibility in everything from tech to gaming -- a welcome change for many in the community.  \"When you have a disability, you don't want to be reminded that you have a disability,\" Flores, the accessibility consultant, said. \"Especially while gaming.\""
+          },
+          {
+            "type": "source",
+            "content": "CNET",
+            "url": "https://www.cnet.com/tech/gaming/playstation-access-controller-makes-gaming-more-seamless-for-people-with-disabilities/"
+          }
+        ]
+      },
+      {
+        "categoryId": "category-05",
+        "title": "OLED vs. LED vs. MiniLED vs. LCD: What's the Best?",
+        "date": "October 14, 2023",
+        "numberOfComments": 12,
+        "imageUrl": "https://www.cnet.com/a/img/resize/c74f961ca02c141b46374c7fa54d8e563d44f798/hub/2019/11/21/d116c673-c0a2-4071-bbf5-95073df092f0/what-store-to-buy-a-tv-13-of-8.jpg?auto=webp&fit=crop&height=362&width=644",
+        "rating": 7,
+        "featured": true,
+        "authorId": "author-03",
+        "content": [
+          {
+            "type": "text",
+            "content": "We're in a golden age of display technology. Televisions with quantum dots and massive screen sizes cost less than budget TVs did a decade ago. Yet, if you're buying a new TV there can be a confusing bombardment of acronyms, all conspiring to hide what's truly good, and bad, about a TV.  For the discerning or frugal viewer, what's the best option? OLED gets all the hype, but what's mini about Mini-LED? What's the difference between QLED and ULED? Which TV technology produces the best picture with movies? Or games? What's the best looking overall?  While there are standouts with every technology, as well as significant pros and cons, it's possible to make some generalizations. Certain technologies are better than others, sometimes at just a few things, sometimes for a lot of things. Finding the right TV for you is a matter of balancing these strengths and weaknesses for your specific needs, so let's look at the technologies in a bit more depth."
+          },
+          {
+            "type": "subtitle",
+            "content": "OLED and QD-OLED"
+          },
+          {
+            "type": "text",
+            "content": "Pros: Excellent overall picture quality, Excellent contrast ratio."
+          },
+          {
+            "type": "text",
+            "content": "Cons: Not quite as bright as some technologies, Potential for image retention, Expensive"
+          },
+          {
+            "type": "text",
+            "content": "For the best overall picture quality, most experts agree that OLED is the winner. The combination of perfect black levels and a bright image make images pop in a way other technologies can't quite match.  The latest \"flavor\" of OLED, called QD-OLED, pairs the emissive technology with quantum dots. This can improve the color and brightness even more than traditional OLED. As a result, these QD-OLEDs are some of the most expensive TVs on the market, per inch, but they're quite impressive.  On the down side, there's the potential of image retention. If you watch the same thing all day (cable news, the same video game), the static parts of the screen can \"stick.\" Typically this goes away when you watch something else, but if you only watch one channel for hours at a time, OLED's not for you."
+          },
+          {
+            "type": "subtitle",
+            "content": "Mini-LED"
+          },
+          {
+            "type": "text",
+            "content": "Pros: Bright, images Great, contrast Huge screens"
+          },
+          {
+            "type": "text",
+            "content": "Cons: Not quite as good as OLED, More expensive than some other tech."
+          },
+          {
+            "type": "text",
+            "content": "Technically, Mini-LED is an evolution from LED LCDs. Both technologies use LEDs to create light and an LCD layer to create an image. The difference is the size and number of LEDs. Mini-LED has a lot more LEDs, and they're smaller. This might not seem like a huge difference, but it's enough to warrant its own entry on this list.  The main issue with \"normal\" LED LCDs is their contrast ratio isn't as good as OLED. As such, the picture isn't quite as good. Mini-LEDs, like all local-dimming LED LCDs, can improve the contrast ratio by dimming certain areas of the screen so dark areas can appear darker. The problem with that is even the best local dimming zone still comprised a fairly large area of the screen. So a small bright object on a dark background -- a streetlight, say -- would raise the level of the surrounding black area, making it appear gray. While engineers have done a lot over the years to minimize this problem, it persists. It has to, it's just physics.  With Mini-LED, a greater number of smaller LEDs are spread across the back of the TV. In most cases these greatly reduce the size of the local dimming zone, so to a casual viewer the contrast ratio is fantastic. Not pixel-perfect like OLED, but close enough. Mini-LED TVs can also produce some extremely bright images, which can be handy for daytime viewing in brighter rooms. There's also basically no chance of image retention, so for gamers worried about marring their OLED screens, Mini-LED is a great alternative.   The downside? Mini-LEDs are more expensive than their lesser LED LCD counterparts, but are usually cheaper than OLED."
+          },
+          {
+            "type": "subtitle",
+            "content": "LED, QLED, LED LCD (and everything else)"
+          },
+          {
+            "type": "text",
+            "content": "Pros: inexpensive, Widest variety of screen sizes."
+          },
+          {
+            "type": "text",
+            "content": "Cons:  Picture quality is a step behind the other technologies"
+          },
+          {
+            "type": "text",
+            "content": "LCD is the most common display technology, and it is very distantly followed by OLED. LCD includes Mini-LED (above) as well as LED, QLED, QNED, ULED and so on. LCD TVs have been around for over 20 years, which makes them the oldest mainstream TV tech still in production. Improvements to screen size, brightness and overall picture quality have been impressive, but the technology still lags behind OLED. Whatever the LED LCD \"flavor,\" they all use some amount of LEDs to create light, and then an LCD layer to create the image.   The main benefit to LED LCDs is cost. They're extremely inexpensive to produce in a wide range of sizes. OLED can't match that flexibility. Thanks to decades of improvements, even budget LCD TVs look quite good, often far better than the better TVs from a decade ago. Many LED LCDs also use quantum dots (that's where the \"Q\" comes from in their naming) to boost brightness and color.  The downside is you can get better picture quality, sometimes a lot better, with one of the other TV technologies. Better contrast, better and deeper color, higher brightness and more, all give the other techs more \"wow.\" That \"wow\" is going to cost you, though.   Learn more about LED local dimming technology, and check out the best TVs that won't break your budget."
+          },
+          {
+            "type": "subtitle",
+            "content": "Future tech"
+          },
+          {
+            "type": "text",
+            "content": "There are two techs on the horizon worth mentioning. Neither compete with the above technologies for TVs right now, but they might in the near future.  The first is direct-view quantum dots, aka NanoLED. These skip LED and OLED completely, using just quantum dots to make up an image. The tech is promising, with the potential for incredible picture quality. It's still in the development stages, though, so don't expect it for a few years. We saw some behind-the-scenes research on it recently.  The other is MicroLED. Right now this tech is exclusively in the giant display realm -- and it is available to a select few -- but is more of a projector replacement than a TV replacement. With typical LED LCDs there are somewhere between a few dozen and a few thousand LEDs which create light which illuminates the image. With MicroLED, each pixel is an LED, so this means there's millions of them. As the tech matures it's possible we'll see more TV-sized MicroLEDs (if \"TV sized\" means 100-inches to you). In addition to being quite expensive it's also energy intensive so, like NanoLED, don't expect a 65-inch MicroLED at your local Best Buy anytime soon. "
+          },
+          {
+            "type": "source",
+            "content": "CNET",
+            "url": "https://www.cnet.com/tech/home-entertainment/oled-vs-led-vs-miniled-vs-lcd-whats-the-best/"
+          }
+        ]
+      }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "author-01",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kenaz-web-app.appspot.com/o/authors%2Fauthor-01.png?alt=media&token=9d68a92e-a7a8-4b21-ab2f-99c60dcdd486&_gl=1*1rnkx3x*_ga*MjA2OTU5MjE0NS4xNjkyMzY4ODI4*_ga_CW55HF8NVT*MTY5NzI0MTM4OS4yNy4xLjE2OTcyNDE1MTMuNjAuMC4w",
+        "name": "John Smith",
+        "about": "John Smith is a seasoned journalist with a passion for storytelling and a commitment to uncovering the truth. With a career spanning over two decades in the field of journalism, John has reported on a wide range of topics, from international conflicts to local community events. He has a knack for digging deep into stories, interviewing sources, and presenting well-researched, balanced narratives. John's dedication to ethical reporting and his ability to connect with people from all walks of life have earned him a reputation as a trusted and respected journalist."
+    },
+    {
+        "id": "author-02",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kenaz-web-app.appspot.com/o/authors%2Fauthor-02.png?alt=media&token=a7b6cae7-25e8-4723-b2af-c1eb798bb7a9&_gl=1*oyu6t1*_ga*MjA2OTU5MjE0NS4xNjkyMzY4ODI4*_ga_CW55HF8NVT*MTY5NzI0MTM4OS4yNy4xLjE2OTcyNDE2ODAuNjAuMC4w",
+        "name": "Emily Johnson",
+        "about": "Emily Johnson is a dedicated and passionate journalist with a strong commitment to investigative reporting and storytelling. With years of experience in the world of journalism, Emily has covered a diverse range of stories, from in-depth political analyses to heartwarming human-interest pieces. Her keen eye for detail, extensive research skills, and ability to build strong connections with sources make her a standout journalist in the field. Emily is known for her tenacity in seeking out the truth and her unwavering dedication to bringing important stories to light. In her free time, she enjoys exploring local art galleries, trying new culinary experiences, and volunteering at her community center."
+    },
+    {
+        "id": "author-03",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kenaz-web-app.appspot.com/o/authors%2Fauthor-04.png?alt=media&token=c7883b55-0f0c-4960-9631-9af9da4a5f5a&_gl=1*1icmptp*_ga*MjA2OTU5MjE0NS4xNjkyMzY4ODI4*_ga_CW55HF8NVT*MTY5NzI0MTM4OS4yNy4xLjE2OTcyNDE3MzcuMy4wLjA.",
+        "name": "Michael Wilson",
+        "about": "Michael Wilson is a dedicated journalist whose passion for storytelling and commitment to uncovering the truth have shaped his career. With years of experience in the field, Michael has covered a wide array of topics, from international conflicts to engaging human-interest stories. His ability to navigate complex issues, conduct thorough research, and conduct insightful interviews distinguishes him in the realm of journalism. Michael is known for his calm demeanor under pressure and his unwavering dedication to upholding the highest ethical standards in reporting."
+    },
+    {
+        "id": "author-04",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kenaz-web-app.appspot.com/o/authors%2Fauthor-03.png?alt=media&token=dabe0ba2-d512-43ba-a252-53f6c8ef6c11&_gl=1*pucvd9*_ga*MjA2OTU5MjE0NS4xNjkyMzY4ODI4*_ga_CW55HF8NVT*MTY5NzI0MTM4OS4yNy4xLjE2OTcyNDE4NzEuNTEuMC4w",
+        "name": "Sarah Davis",
+        "about": "In the world of journalism, Sarah Davis is a dedicated and passionate storyteller, driven by an unwavering commitment to uncovering the truth. With extensive experience in the field, Sarah has covered a wide array of topics, from investigative exposés to heartwarming human-interest pieces. Her talent for in-depth research, ability to connect with sources, and skill in crafting compelling narratives set her apart in the realm of journalism. Sarah is known for her tireless dedication to ethical reporting and her relentless pursuit of stories that truly matter. Beyond her work as a journalist, she finds joy in exploring her local community, immersing herself in cultural events, and actively supporting local charities."
+    },
+    {
+        "id": "author-05",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kenaz-web-app.appspot.com/o/authors%2Fauthor-05.png?alt=media&token=6374eab2-5b3b-4a9f-86c4-ffd4de3b0dce&_gl=1*1wx3688*_ga*MjA2OTU5MjE0NS4xNjkyMzY4ODI4*_ga_CW55HF8NVT*MTY5NzI4NTY3MS4yOS4xLjE2OTcyODU4MDIuNTguMC4w",
+        "name": "Alex Turner",
+        "about": "I'm Alex Turner, a sports reporter with a passion for storytelling in the world of athletics. My goal is to capture the essence of sports, from the excitement of victories to the resilience in defeat. With years of experience, I've covered a diverse range of sports, bringing you closer to the action. Join me in celebrating the extraordinary stories that unfold on and off the field."
+    },
+    {
+        "id": "author-06",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kenaz-web-app.appspot.com/o/authors%2Fauthor-06.png?alt=media&token=a34a2bc1-5edd-473b-979a-916ba5b9ec11&_gl=1*s1x54s*_ga*MjA2OTU5MjE0NS4xNjkyMzY4ODI4*_ga_CW55HF8NVT*MTY5NzI4NTY3MS4yOS4xLjE2OTcyODU4MzYuMjQuMC4w",
+        "name": "David Clark",
+        "about": "Hey there, I'm David Clark, a sports enthusiast turned reporter. I live for the thrill of the game and the stories behind the scores. Whether it's a buzzer-beater or an underdog's journey, I'm all about sharing those epic moments. With experience covering various sports, I'm here to make you feel like you're part of the action. Let's dive into the world of sports together!"
+    }
+]
