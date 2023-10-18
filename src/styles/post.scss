@@ -1,0 +1,65 @@
+$primary-text-color: #CCC;
+$secondary-text-color: #666;
+
+@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin limitTextDisplayOnLines($number-of-lines: 4){
+    display: -webkit-box;
+    -webkit-line-clamp: $number-of-lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 98px;
+    position: relative;
+    text-align: start;
+
+    >img{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border: 2px solid white;
+        
+    }
+
+    .post-info{
+        flex-shrink: 0;
+        p{
+            @include text($color: $secondary-text-color, $font-family: 'Varela Round', $fontsize: 10px, $lineheight: 16px);
+            
+        }
+        h3{
+            @include text( $fontsize: 14px, $fontweight: 700);
+            @include limitTextDisplayOnLines(3);
+        }
+    }
+}
+
+.comment-status-container{
+    width: 49;
+    height: fit-content;
+    display: flex;
+    gap: 6px;
+    position: absolute;
+    top: 3px; left: 190px;
+    align-items: end;
+    >img{
+        width: 11px;
+        height: 10px;
+    }
+    p{
+        @include text($color: $secondary-text-color, $font-family: 'Varela Round', $fontsize: 10px, $lineheight: 12px);
+    }
+}

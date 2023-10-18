@@ -1,0 +1,57 @@
+$title-color: #FFF;
+$primary-text-color: #CCC;
+$secondary-text-color: #666;
+
+
+@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin limitTextDisplayOnLines($number-of-lines: 4){
+    display: -webkit-box;
+    -webkit-line-clamp: $number-of-lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.twitter-feed-container{
+    text-align: start;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    >h2{
+        @include text($color: $title-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
+        margin-bottom: -10px;
+    }
+}
+
+.twitter-post{
+    
+    >div{
+        display: flex;
+        align-items: end;
+        gap: 1px;
+        margin-bottom: 10.5px;
+        img{
+            width: 24px;
+            height: 18px;
+        }
+
+        p{
+            @include text($color: $secondary-text-color, $fontsize: 14px, $lineheight: 16px);
+        }
+        
+    }
+    >p{
+        @include limitTextDisplayOnLines();
+        @include text($color: $primary-text-color, $font-family: 'Varela', $fontsize: 13px, $lineheight: 18px);
+        
+    }
+}

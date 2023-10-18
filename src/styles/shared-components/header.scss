@@ -1,0 +1,114 @@
+@use 'sass:list';
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Varela+Round&display=swap');
+$primary-text-color: #FFF;
+$nav-colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
+$header-icon-background-color: rgba(#ffffff, 0.05);
+
+@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin icon($background-color: none, $width: 14px, $height: 14px, $padding: 0px){
+    background-color: $background-color;
+    width: $width;
+    height: $height; 
+    padding: $padding;
+}
+
+.header-container{
+    @include flexDispaly($flex-direction: column);
+    min-width: 940px;
+    
+    >div:nth-child(1){
+        background-color: #252525;
+    }
+
+    >div:nth-child(2){
+        background-color: #4D4382;
+    }
+}
+
+.header-container>div{
+    display: inherit;
+    justify-content: center;
+    width: 100%;
+
+    >div, >nav{
+        display: inherit;
+        flex-direction: row;
+        width: 940px;
+        height: 53px; 
+    }
+
+    @for $i from 1 through 6 {
+        >nav>a:nth-child(#{$i}) {
+            box-shadow: inset 0 -4px 0 -1px list.nth($nav-colors, $i);
+        }
+        >nav>a:nth-child(#{$i}):hover {
+            box-shadow: inset 0 -56px 0 -1px list.nth($nav-colors, $i);
+        }
+    }
+
+    >nav>a{
+        text-decoration: none;
+        padding: 0px 20px;
+        @include text($fontweight: 700);
+        @include flexDispaly($align-items: center);
+        transition: box-shadow .45s ease-in-out;
+    }
+}
+
+.header-logo-container{
+    display: flex;
+    gap: 9px;
+    
+    img{
+        cursor: pointer;
+        @include icon($header-icon-background-color, 14px, 21px, 15px 26px 17px 23px);
+    }
+
+    h1{
+        cursor: pointer;
+        margin: 0;
+        @include text($fontsize: 24px, $lineheight: 27px);
+        @include flexDispaly($align-items: center);
+        padding-top: 16.5px;
+        padding-bottom: 9.5px;
+    }
+}
+
+
+.header-top-stripe{
+    @include flexDispaly($justify-content: space-between);
+
+    >div{
+        display: inherit;
+        img{
+            @include icon($header-icon-background-color, 16px, 16px, 18px 23px 19px 23px);
+        }
+        >nav{
+          display: inherit;
+          padding-top: 14.5px;
+          padding-bottom: 11.5px;
+          margin-right: 29px;
+          gap: 34.5px  
+        }
+        >nav a{
+            text-decoration: none;
+            @include text($font-family: 'Varela Round', $fontsize: 14px, $lineheight: 27px )
+        }
+    }
+}

@@ -1,0 +1,140 @@
+$content-background-color: #FFFFFF;
+$primary-text-color: #363F48;
+$secondary-text-color: #666666;
+$aritcle-content-text-color: #444444;
+$border-color: #DDDDDD;
+$read-article-button-background-color: #4D4382;
+$read-article-button-background-acitve-color: #3a2d7a;
+$read-article-button-text-color: #FFFFFF;
+$page-button-background-color: #DDD;
+$page-button-background-active-color: #4D4382;
+$page-button-primary-text-color: #4D4382;
+$page-button-secondary-text-color: #FFFFFF;
+
+@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin limitTextDisplayOnLines($number-of-lines: 4){
+    display: -webkit-box;
+    -webkit-line-clamp: $number-of-lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.category-articles-list{
+    width: 100%;
+    text-align: start;
+    background-color: $content-background-color;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    
+    >h2{
+        @include text($fontsize: 24px, $fontweight: 700, $lineheight: 33px);
+        margin-bottom: 36px;
+        margin-left: 30px;
+    }
+
+    .listed-articles-continer{
+        @include flexDispaly($flex-direction: column, $gap: 26px);
+    }
+
+    .select-listed-page-continer{
+        margin: 32px 18px 12px 30px;
+        @include flexDispaly($gap: 5px);
+        >button{
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: $page-button-background-color;
+            @include text($color: $page-button-primary-text-color, $font-family: 'Varela Round', $fontsize: 14px);
+        }
+
+        >button.active{
+            background-color: $page-button-background-active-color;
+            color: $page-button-secondary-text-color;
+        }
+    }
+}
+
+.article-list-elememnt{
+    text-align: start;
+    padding: 0px 18px 14px 30px;
+    border-bottom: 1px solid $border-color;
+    width: 572px;
+    @include flexDispaly($flex-direction: column, $gap: 16px);
+
+    >h3{
+        
+        max-width: 496px;
+        @include text($fontsize: 24px, $fontweight: 700, $lineheight: 28px);
+        @include limitTextDisplayOnLines(2);
+    }
+
+    button{
+        position: relative;
+        left: 190px;
+        cursor: pointer;
+        border: none;
+        background-color: $read-article-button-background-color;
+        @include text($color: $read-article-button-text-color, $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
+        padding: 7px 20px 6px;
+        margin-bottom: -6px;
+    }
+
+    button:hover{
+        background-color: $read-article-button-background-acitve-color;
+    }
+
+    .share-box{
+        height: 42px;
+        flex-shrink: 0;
+    }
+
+    .info-banner{
+        @include flexDispaly($gap: 20px);
+
+        >div{
+            @include flexDispaly( $gap: 4px);
+            img{
+                width: 14px;
+                height: 14px;
+                margin: -1px;
+            }
+            p{
+                @include text($color: $secondary-text-color, $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px)
+            }
+        }
+    }
+
+    .content-banner{
+        @include flexDispaly($gap: 19px);
+        >img{
+            width: 170px;
+            height: 128px;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+        p{
+            @include text($color: $aritcle-content-text-color, $fontsize: 14px, $lineheight: 22px);
+            @include limitTextDisplayOnLines($number-of-lines: 8);
+            margin-top: -9px;
+            text-align: justify;
+        }
+    }
+}

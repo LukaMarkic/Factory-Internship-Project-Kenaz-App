@@ -1,0 +1,37 @@
+
+$default-text-color: #666;
+$default-background-color: #333;
+$selected-text-color: #CCC;
+$selected-background-color: #4D4382;
+
+@mixin disableSelectText{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-text-select: none;
+    -webkit-user-select: none;
+}
+
+.widget-tag-container{
+    padding: 4px 9px 3px;
+    background-color: $default-background-color;
+    font-family: 'Varela', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: $default-text-color;
+    @include  disableSelectText;
+}
+
+.widget-tag-container:hover{
+    cursor: pointer;
+    transition: 450ms;
+    background: rgba($color: $selected-background-color, $alpha: 0.5);
+    color: $selected-text-color
+}
+
+.widget-tag-container.selected{
+    transition: 450ms;
+    background-color: $selected-background-color;
+    color: $selected-text-color
+}
+
+

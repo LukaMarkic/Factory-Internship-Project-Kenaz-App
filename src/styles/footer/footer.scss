@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Varela&family=Varela+Round&display=swap');
+
+$footer-background-color: #252525;
+$footer-secondary-color: #4D4382;
+$footer-element-color: #333;
+$footer-creditental-color: #999;
+$footer-text-primary-color: #CCC;
+$footer-text-secondary-color: #666;
+$content-width: 940px;
+$top-content-primary-width: 302px; 
+$primary-text-color: #FFF;
+$kenaz-title-color: #45B0E3;
+
+@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+
+@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin center($width: $content-width){
+    width: $width;
+    margin-left: calc(50% - $width/2);
+}
+
+
+.footer-container{
+    flex-shrink: 0;
+    background-color: $footer-background-color;
+    border-top: 23px solid $footer-secondary-color;
+
+    >hr{
+        height: 3px;
+        flex-shrink: 0;
+        background: $footer-element-color;
+        border: none;
+        margin: 0;
+    }
+}
+
+.footer-top-content{
+    margin: 70px 0px 67px;
+    @include center();
+    >div:nth-child(1){
+        @include flexDispaly($gap: 17px);
+        margin-bottom: 68px;
+        >div:nth-child(1){
+           margin-top: -13px;
+           width: $top-content-primary-width; 
+           p{
+            @include text($color: $footer-text-secondary-color, $fontsize: 14px, $lineheight: 20px );
+            text-align: start;
+            margin: 21.78px 0px 23px;
+           }
+        }
+
+        >div:nth-child(2){
+            width: $top-content-primary-width;
+            @include flexDispaly($flex-direction: column, $gap: 25px );
+            h1{
+                @include text($color: $footer-text-primary-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px );
+                margin-top: -7px;
+            } 
+            p{
+             @include text($color: $footer-text-secondary-color, $fontsize: 14px, $lineheight: 20px );
+             text-align: start;
+            }
+            form{
+                input{
+                    background-color: $footer-element-color;
+                    padding: 15px 4px 19px 21px;
+                    width: 166px;
+                    outline: none;
+                    border: none;
+                    @include text($color: $footer-creditental-color, $font-family: 'Varela Round', $fontsize: 16px, $lineheight: 19px);
+                }
+                button{
+                    background-color: $footer-secondary-color;
+                    width: 111px; 
+                    @include text($color: $footer-text-primary-color, $font-family: 'Varela Round', $fontsize: 16px, $lineheight: 19px);
+                    padding: 15px 0px 19px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        >div:nth-child(3){
+            @include flexDispaly($flex-direction: column, $gap: 31px);
+            h1{
+                @include text($color: $footer-text-primary-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px );
+                margin-top: -8px;
+            }
+            
+            .tag-contianer{
+                width: $top-content-primary-width;
+                flex-wrap: wrap;
+                @include flexDispaly($gap: 3px );
+                >div{
+                    width: fit-content;
+                }
+            }
+        }
+    }
+
+    >div:nth-child(2){
+        @include flexDispaly( $justify-content: space-between);
+    }
+}
+
+.footer-logo-container{
+    @include flexDispaly($gap: 18px );
+
+    img{
+        cursor: pointer;
+        width: 28px;
+        height: 43px;
+        padding-bottom: 1.22px;
+    }
+
+    h1{
+        cursor: pointer;
+        @include text($color: $kenaz-title-color, $fontsize: 29.623px, $lineheight: 51.807px);
+        @include flexDispaly($align-items: center);
+        margin-top: -7.78px;
+    }
+}
+
+.footer-social-media-icons{
+    @include flexDispaly($gap: 6px);
+    >img{
+        width: 38px;
+        height: 37px;
+          
+    }
+}
+
+.footer-bottom-content{
+    margin-top: 19px;
+    @include center();
+    @include flexDispaly($justify-content: space-between);
+    p{
+        @include text($color: $footer-creditental-color, $font-family: 'Varela Round', $fontsize: 12px);
+    }
+    padding-bottom: 144px;
+}

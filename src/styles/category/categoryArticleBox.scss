@@ -1,0 +1,44 @@
+$background-color: #ffffff;
+$primary-text-color: #363F48;
+$secondary-text-color: #666;
+$link-color: #3677B5;
+
+@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+.category-articles-box{
+    text-align: start;
+    background-color: $background-color;
+    width: calc(100% - 69.6px);
+    height: 284px;
+    padding: 15px 30px 26px;
+    @include flexDispaly($flex-direction: column, $justify-content: space-between);
+    >div:nth-child(1){
+        width: 100%;
+        @include flexDispaly($justify-content: space-between, $align-items: end);
+        h2{
+            @include text($fontsize: 24px, $fontweight: 700, $lineheight: 33px);
+        }
+
+        a{
+            @include text($color: $link-color, $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
+            text-underline-offset: 5px;
+        }
+    } 
+}
+

@@ -1,0 +1,123 @@
+$cover-title-text-color: #222;
+$content-text-color: #444;
+$content-background-color: #FFF;
+$author-title-color: #363F48;
+
+@mixin text($color: $cover-title-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin limitTextDisplayOnLines($number-of-lines: 4){
+    display: -webkit-box;
+    -webkit-line-clamp: $number-of-lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.single-article-cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+    position: relative;
+    min-width: 940px;
+    height: 588px;
+    margin-bottom: 8px;
+    
+    >div{
+        width: 751px;
+        height: fit-content;
+        position: absolute;
+        bottom: 34px;
+        left: 30px;
+        @include flexDispaly($flex-direction: column, $gap: 12px);
+    
+        p{
+            @include text( $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
+        }
+
+        h1{
+            @include text( $fontsize: 44px, $fontweight: 700);
+        }
+    }
+}
+
+.white-layer{
+    width: 940px;
+    position: absolute;
+    bottom: -1px;
+    z-index: 0;
+}
+
+.single-article-content{
+    text-align: start;
+    background-color: $content-background-color;
+    p{
+        @include text($color: $content-text-color, $fontsize: 14px, $lineheight: 22px);
+        margin: 37px 18px 42px 30px;
+    }
+
+    h3{
+        @include text($color: $content-text-color, $fontweight: 700);
+        margin: 30px 20px 18px 30px !important;
+    }
+
+    h3 + p{
+        margin-top: 18px;
+    }
+
+    img{
+        
+        object-fit: cover;
+        width: 100%;
+        border-top: 1px solid #DDD;
+        border-bottom: 1px solid #DDD;
+    }
+
+    .source-container{
+        
+        @include text($color: $content-text-color, $fontsize: 14px, $lineheight: 22px);
+        margin: 30px 20px 18px 30px;
+        a{
+            text-decoration: underline;
+            margin-left: 5px;
+        }
+    } 
+}
+
+.single-article-author{
+    text-align: start;
+    background-color: $content-background-color;
+    width: calc(100% - 55px);
+    padding: 16px 25px 30px 30px;
+    >h2{
+        @include text($color: $author-title-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
+        margin-bottom: 30px;
+    }
+
+    >div{
+        @include flexDispaly($justify-content: space-between);
+        img{
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+        }
+        p{
+            width: 435px;
+            @include text($color: $content-text-color, $font-family: 'Varela', $fontsize: 13px, $lineheight:20px);
+        }
+    }
+}

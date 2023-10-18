@@ -1,0 +1,70 @@
+@mixin flexDispaly($flex-direction: row, $justify-content: start, $align-items: start, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+.image-carousel{
+    position: relative;
+    margin-bottom: 20px;
+
+    img{
+        flex-shrink: 0;
+    }
+
+    .search-image-icon{
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        height: 80px;
+        width: 80px;
+        top: 120px;
+        left: 440px;
+    }
+
+    .left-gray-icon, .right-gray-icon{
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        top: 124px;
+        width: 36px;
+        height: 53px; 
+    }
+
+    .left-gray-icon{
+        left: 28px;
+    }
+
+    .right-gray-icon{
+        right: 28px;
+    }
+
+    .image-gallery-list{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 900px;
+        flex-shrink: 0;
+        @include flexDispaly($justify-content: space-between);
+
+        >img{
+            cursor: pointer;
+            width: 120px;
+            height: 120px;
+            opacity: 0.75;
+        }
+
+        img:hover{
+            transition: 750ms;
+            opacity: 1;
+            scale: 1.1;
+        }
+
+        img:not(:hover){
+            transition: 750ms;
+        }
+        
+    }
+}
