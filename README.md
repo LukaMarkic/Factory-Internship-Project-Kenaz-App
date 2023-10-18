@@ -8,13 +8,12 @@ Aplikacije je izrađena korištenjem JavaScript razvojnog okvira [ReactJS](https
 
 ## Strukutra
 
-Zbog optimizacijskih razloga (brže ponovne izgradnje), webpack obrađuje samo datoteke koje se nalze unutar /src direkotrija. Unutar ovog dirkorija je sadžana glavna logika aplikacije jer upravo u njemu trebaju biti sadžane skripne datoteka (.js) i datoteke za stilsko uređenje dokumenta (.css i .scss). U nastavku je moguće vidjeti strukturu /src direktorija.
+Zbog optimizacijskih razloga (brže ponovne izgradnje), webpack obrađuje samo datoteke koje se nalze unutar /src direktorija. Unutar ovog dirktorija je sadžana glavna logika aplikacije jer upravo u njemu trebaju biti sadžane skriptne datoteka (.js) i datoteke za stilsko uređenje dokumenta (.css i .scss). U nastavku je moguće vidjeti strukturu /src direktorija.
 <br/>
 
 <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
 - /src
-
   - /components
   - /context
   - /data
@@ -30,7 +29,7 @@ Zbog optimizacijskih razloga (brže ponovne izgradnje), webpack obrađuje samo d
 <br />
 
 Dirketorij se sastoji od podirektorija: components, context, data, help, hooks, images, pages, styles. Kao i JavaScript datoteke App.js i index.js.
-Izgled components direkorija prikazan je u nastavaku. Unutar tog direktorija sadržane su same React komponente kao što su Header koji predstavlja zaglavlje. Te komponente su također rapoređene u odgovarajuće direkorije prema njihovim svojstvima, primjerice one komponete koje se nalaze unutar podnožja (engl. _footer_) smještene su u direktorij /footer.
+Izgled components direktorija prikazan je u nastavaku. Unutar tog direktorija sadržane su same React komponente kao što su Header koji predstavlja zaglavlje. Te komponente su također rapoređene u odgovarajuće direkorije prema njihovim svojstvima, primjerice one komponete koje se nalaze unutar podnožja (engl. _footer_) smještene su u direktorij /footer.
 
 <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
