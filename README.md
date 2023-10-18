@@ -1,70 +1,252 @@
-# Getting Started with Create React App
+# Factory Internship Project Kenaz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ovaj projekt predstvlja zadatak u izrađen kroz stručnu praksu u tvrtci Factory d.o.o.. Projekt predstvalja mrežnu starnicu za pristup članicima i vjetima, kao i raspored istih kroz odgovarajuće kategorije. Ponuđene kategorije su News, Bussines, Sport, Life, Tech i Tevel.
 
-## Available Scripts
+## Korištene tehnologije
 
-In the project directory, you can run:
+Aplikacije je izrađena korištenjem JavaScript razvojnog okvira [ReactJS](https://react.dev/). Za potrebe stilizacije korišten je CSS kao i CSS predproceski alat za stiliziranje Syntactically Awesome Style Sheets - SASS (.scss).
 
-### `npm start`
+## Strukutra
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+U nastavku je moguće vidjeti strukturu source (/src) direktorija.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-### `npm test`
+- /src
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - /components
+  - /context
+  - /data
+  - /help
+  - /hooks
+  - /images
+  - /pages
+  - /styles
+  - App.js
+  - index.js
+  </div>
+  <br />
+  Dirketorij se sastoji od podirektorija: components, context, data, help, hooks, images, pages, styles. Kao i javascript datoteka App.js i index.js.
+  Izgled components direkorija prikazan je u nastavaku. Unutar tog direktorija sadržane su same React komponente kao što su Header koji predstavlja zaglavlje. Te komponente su također rapoređene u odgovarajuće direkorije prema nihovim svojstvima, primjerice one komponete koje se nalaze unutar podnožja (engl. _footer_) smještene su u direkotrij /footer.
+  <br /> <br/>
+  <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-### `npm run build`
+  - /components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    - /aside
+      - AsideBannerContainer.js
+      - Sidebar.js
+      - SocialBox.js
+    - /category
+      - /list
+        - ArticleListElement.js
+          - CategoryArticlesList.js
+      - ArticleTumbnail.js
+      - CategoryArticlesBox.js
+      - CategoryCarousel.js
+    - /cover-article
+      - CoverArticle.js
+    - /footer
+      - Footer.js
+      - FooterPost.js
+      - TwitterFeed.js
+      - WidgetTag.js
+    - /shared
+      - Banner.js
+      - CarouselWheel.js
+      - ContentWrapper.js
+      - Header.js
+    - /single-page
+      - CommentSection.js
+      - SingleArticle.js
+    - ImageCarousel.js
+    - ModalWindow.js
+    </div>
+    <br/>
+    Direktorij context sadrži korisniči kreirane kontekste.
+    <br/>
+    <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    - /context
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      - CategoryContext.js
+      </div>
+      <br/>
+      Direktorij /data sadrži odgovarajući sadržaj koji se učitava.
+      <br/>
+      <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-### `npm run eject`
+      - /data
+        - /category
+          - businessArticle.json
+          - lifeArticle.json
+          - newsArticles.json
+          - sportArticle.json
+          - techArticle.json
+        - authorData.json
+        - carouselImagesData.js
+        - twitterPosts.json
+        - widgetTags.json
+        </div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    <br/>
+    Direkorij /help sadrži datoteka unutar kojih su definirane pomoćne funkcije.
+    <br/><br/>
+    <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - /help - arrayHelp.js - postDataHelp.js
+    </div>
+    <br/>
+    Direkorij /hooks sadrži korisnički napisani _hooks_.
+    <br/><br/>
+    <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - /hooks
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+      - useCategoryContext.js
+      </div>
+      <br/> 
+      Direktorij /images sadrži slike, ikone kao i sami logo aplikacije.
+      <br/><br/>
+      <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-## Learn More
+    - /images
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+      - /carousel-display
+        - coffe_cup.png
+        - fence_img.png
+        - island_img.png
+        - pier.png
+        - ship_img.png
+        - street.png
+        - sunshine_profile.png
+      - /logos
+        - kenaz-blue-logo.svg
+        - kenaz-logo.svg
+      - /navigation
+        - left_brown.svg
+        - left_gray.svg
+        - left_orange.svg
+        - right_brown.svg
+        - right_gray.svg
+        - right_orange.svg
+      - /social-icons
+        - dribble-icon.svg
+        - facebook-icon.svg
+        - linkedin-logo.png
+        - rss-icon.svg
+        - skype-icon.svg
+        - twitter-bird.svg
+        - twitter-icon.svg
+        - youtube-icon.svg
+      - author-icon.png
+      - black_layer.svg
+      - calendar-icon.png
+      - comment-icon.svg
+      - comment-profile-image.png
+      - search-icon.svg
+      - white-layer.png
+      </div>
+      <br/>
+      Direktorij /pages sadrži tri glavna web mjesta (Home page, Category page, Singel page). Home page se učitava samim otvarenjem stranice i on predstvlja naslovnu stranicu. Category page prikazuje sadržaj odgovarjuće kategorije koje smo naveli prethodno. Prijerice, za kategoriju News prikazati će se članici za tu kategoriju. U konačnici Singele page sadrži sami sadržaj članka, podatke o autoru članka i sekciju u kojem je moguće ostaviti komentar.
+      <br/><br/>
+      <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - /pages
 
-### Code Splitting
+      - Category.js
+      - Home.js
+      - Single.js
+        </div>
+      <br/>
+      Direktorij /styles sadrži datoteke za stilsko uređene stenice.
+      <br/><br/>
+      <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - /styles
+      - /category
+        - articleTumbinal.scss
+        - categoryArticleBox.scss
+        - categoryArticleList.scss
+        - categoryCarousel.scss
+      - /footer
+        - footer.scss
+        - footerPost.scss
+        - twitterFeed.scss
+        - widgetTag.scss
+      - /modules
+        - disable.module.scss
+      - /shared-components
+        - banner.scss
+        - carousel.scss
+        - contentWrapper.scss
+        - header.scss
+        - sidebar.scss
+        - socialNetwork.scss
+      - /single-page
+        - commentSection.scss
+        - singleArticle.scss
+      - App.css
+      - coverArticle.scss
+      - imageCarousel.scss
+      - index.css
+      - modalWindow.scss
+      - page.scss
+      - post.scss
+      </div>
 
-### Analyzing the Bundle Size
+## Pokretanje
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Instaliranje Node.js i Node Package Manger paketa
 
-### Making a Progressive Web App
+Kako bi bilo moguće pokretanje potrebno je imati instaliran Node.js odnosno Node Package Manger. Ukoliko nije instaliran instalacijkom paketu je moguće pristupiti putem ljedeće poveznice: [NodeJS Download page](https://nodejs.org/en/download).
+Putem navedne poveznice pistupa se službenoj stranici gdje je moguće preuzeti instalcijske pakete LTS (Long-Term Support) ili Current verzije za odgovarajući operacijski sustav (Windows, MacOS, Linux). Preporuča se preuzimanje LTS verzije instalacijskog paketa. Nakon instalcije potrebno je pokrenuti instalcijki paket i sljediti upute. Nakon završetka instalacije možemo provjeriti je li ona bila uspješna upisivanjem sljedećih naredbi u naredbeni redak:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+node -v
+npm -v
+```
 
-### Advanced Configuration
+Ukoliko kao ispis dobijemo verziju programa, instalacija je uspješna.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+_Ovaj projekt je konkrentno razvijen na s veriji Node.js-a v18.13.0 i npm-a 8.19.3._
 
-### Deployment
+### 1. Kloniranje repozitorija:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Prvo je potrebno klonirati repozitorij za što je moguće koristiti sljedeću _bash_ naredbu:
 
-### `npm run build` fails to minify
+```bash
+git clone https://github.com/LukaMarkic/Factory-Internship-Project-Kenaz-App.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 2. Navigacija do direktorija:
+
+Promijenite svoj trenutni direktorij na direktorij kloniranog projekta. Za navigaciju kroz direktorije moguće je korsiti _bash_ naedbu **cd**, a primjer njezinog poziva prikazan je u nastavku:
+
+```bash
+cd factory-internship-project-kenaz-template
+```
+
+### 3. Instalirnje paketa i ovisnosti:
+
+Kako bi pokratenje projekta potrebno je instalirati ovisnosi (eng. _Dependencies_). Navedeno je potrebno uraditi korištenjem naredbe prikazane u nastavku.
+
+```bash
+npm install
+```
+
+### 4. Pokretanje projekta (razvojog servera/izgradnja aplikacije):
+
+Ukoliko smo gotovi s predhodnim koracima, možemo pokrenuti razvojni server kako bi se izvodila naša React aplikacija. Potrebno je koristi **start** naredbu.
+
+```bash
+npm start
+```
+
+Na ovaj način smo aplikaciju pokrenuli u razvojnom načinu rada, no ako je aplikacija spremna za distribuciju istu je moguće "izgraditi" korištnjem
+**run build** naredbe.
+
+```bash
+npm run build
+```
