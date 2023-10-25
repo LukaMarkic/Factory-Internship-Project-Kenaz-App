@@ -1,55 +1,42 @@
 
 [
     {
-        "name": "assueverit",
-        "selected": false 
+        "name": "assueverit"
     },
     {
-        "name": "utroquoe",
-        "selected": false 
+        "name": "utroquoe"
     },
     {
-        "name": "probo",
-        "selected": false 
+        "name": "probo"
     },
     {
-        "name": "assuev",
-        "selected": false 
+        "name": "assuev"
     },
     {
-        "name": "probo",
-        "selected": false 
+        "name": "probo"
     },
     {
-        "name": "assuevverit",
-        "selected": false 
+        "name": "assuevverit"
     },
     {
-        "name": "titl",
-        "selected": false 
+        "name": "titl"
     },
     {
-        "name": "assuevverit",
-        "selected": true 
+        "name": "assuevverit"
     },
     {
-        "name": "assuevverit",
-        "selected": false 
+        "name": "assuevverit"
     },
     {
-        "name": "utroquoe",
-        "selected": false 
+        "name": "utroquoe"
     },
     {
-        "name": "probo",
-        "selected": false 
+        "name": "probo" 
     },
     {
-        "name": "assuevverit",
-        "selected": false 
+        "name": "assuevverit"
     },
     {
-        "name": "utroquoe",
-        "selected": false 
+        "name": "utroquoe"
     }
 ]
