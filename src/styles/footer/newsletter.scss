@@ -1,0 +1,33 @@
+@use '../mixins';
+@use '../colors';
+
+.newsletter{
+    width: 302px;
+    @include mixins.flexDispaly($flex-direction: column, $gap: 25px );
+    h1{
+        @include mixins.text($color: colors.$newsletter-text-primary-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px );
+        margin-top: -7px;
+    } 
+    p{
+     @include mixins.text($color: colors.$newsletter-text-secondary-color, $fontsize: 14px, $lineheight: 20px );
+     text-align: start;
+    }
+    form{
+        input{
+            background-color: colors.$newsletter-input-background-color;
+            padding: 15px 4px 19px 21px;
+            width: 166px;
+            outline: none;
+            border: none;
+            @include mixins.text($color: colors.$newsletter-input-text-color, $font-family: 'Varela Round', $fontsize: 16px, $lineheight: 19px);
+        }
+        button{
+            background-color: colors.$newsletter-button-background-color;
+            width: 111px; 
+            @include mixins.text($color: colors.$newsletter-text-primary-color, $font-family: 'Varela Round', $fontsize: 16px, $lineheight: 19px);
+            padding: 15px 0px 19px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
