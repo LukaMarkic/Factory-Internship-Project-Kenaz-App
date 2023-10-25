@@ -1,0 +1,37 @@
+
+@mixin text($color: black, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
+    margin: 0;
+    color: $color;
+    font-family: $font-family, serif;
+    font-size: $fontsize;
+    font-style: $fontstyle;
+    font-weight: $fontweight;
+    line-height: $lineheight;
+}
+
+@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin limitTextDisplayOnLines($number-of-lines: 4){
+    display: -webkit-box;
+    -webkit-line-clamp: $number-of-lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@mixin icon($background-color: none, $width: 14px, $height: 14px, $padding: 0px){
+    background-color: $background-color;
+    width: $width;
+    height: $height; 
+    padding: $padding;
+}
+
+@mixin center($width: 940px){
+    width: $width;
+    margin-left: calc(50% - $width/2);
+}
