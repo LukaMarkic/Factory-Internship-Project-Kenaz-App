@@ -1,51 +1,10 @@
-$primary-text-color: #EEF6FA;
-$scale-animation-duration: 800ms;
-$hover-button-animation-duration: 1750ms;
+@use './mixins';
+@use './colors';
 
-@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
-    margin: 0;
-    color: $color;
-    font-family: $font-family, serif;
-    font-size: $fontsize;
-    font-style: $fontstyle;
-    font-weight: $fontweight;
-    line-height: $lineheight;
-}
-
-@mixin flexDispaly($flex-direction: row, $justify-content: start, $align-items: start, $gap:0){
-    display: flex;
-    flex-direction: $flex-direction;
-    justify-content: $justify-content;
-    align-items: $align-items;
-    gap: $gap;
-}
-
-@mixin limitTextDisplayOnLines($number-of-lines: 4){
-    display: -webkit-box;
-    -webkit-line-clamp: $number-of-lines;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-@mixin disableSelect{
-    user-select: none;
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: none;
-    -webkit-text-select: none;
-    -webkit-user-select: none;
-}
-
-@mixin disableDrag{
-    user-drag: none;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-}
+$cover-article-scale-animation-duration: 800ms;
+$cover-article-hover-button-animation-duration: 1750ms;
 
 .cover-news-carousel{
-    @include disableDrag;
     width: 940px;
     height: 425px;
     margin-bottom: 19px;
@@ -61,12 +20,12 @@ $hover-button-animation-duration: 1750ms;
     }
 
     .left-gray-icon:hover, .right-gray-icon:hover{
-        transition: $scale-animation-duration;
+        transition: $cover-article-scale-animation-duration;
         scale: 1.15;
     }
 
     .left-gray-icon:not(:hover), .right-gray-icon:not(:hover) {
-        transition: $scale-animation-duration;
+        transition: $cover-article-scale-animation-duration;
      } 
 
     .left-gray-icon{
@@ -77,7 +36,6 @@ $hover-button-animation-duration: 1750ms;
         right: 28px;
     }
 }
-
 
 .cover-news{
     min-width: 940px;
@@ -93,13 +51,13 @@ $hover-button-animation-duration: 1750ms;
         position: absolute;
         top: 241px;
         left: 30px;
-        @include flexDispaly($flex-direction: column, $gap: 12px);
+        @include mixins.flexDispaly($flex-direction: column, $gap: 12px);
 
         >div{
-            @include flexDispaly;
+            @include mixins.flexDispaly;
     
             >p{
-                @include text( $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
+                @include mixins.text($color: colors.$cover-article-primary-text-color, $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
             }
             >p:nth-child(1){
                 margin-right: 33px;
@@ -113,34 +71,32 @@ $hover-button-animation-duration: 1750ms;
         }
 
         h1{
-            @include limitTextDisplayOnLines($number-of-lines: 2);
-            @include text( $fontsize: 34px, $fontweight: 700);
+            @include mixins.limitTextDisplayOnLines($number-of-lines: 2);
+            @include mixins.text($color: colors.$cover-article-primary-text-color, $fontsize: 34px, $fontweight: 700);
         }
     }
 
     >button{
         cursor: pointer;
-        border: 1px solid white;
+        border: 1px solid colors.$cover-article-button-border-color;
         background: transparent;
-        @include text( $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
+        @include mixins.text($color: colors.$cover-article-primary-text-color, $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
         position: absolute;
         left: 30px;
         top: 364px;
         padding: 6px 18px;
     }
     >button:hover{
-        transition: $hover-button-animation-duration;
-        background: white;
-        color: black
+        transition: $cover-article-hover-button-animation-duration;
+        background: colors.$cover-article-button-active-background-color;
+        color: colors.$cover-article-button-active-text-color;
     }
     >button:not(:hover){
-        transition: $hover-button-animation-duration;
+        transition: $cover-article-hover-button-animation-duration;
     }
 }
 
 .black-layer{
-    @include disableSelect;
-    @include disableDrag;
     width: 940px;
     position: absolute;
     bottom: 0;

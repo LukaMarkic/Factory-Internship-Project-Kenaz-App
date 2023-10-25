@@ -1,19 +1,13 @@
-@mixin flexDispaly($flex-direction: row, $justify-content: start, $align-items: start, $gap:0){
-    display: flex;
-    flex-direction: $flex-direction;
-    justify-content: $justify-content;
-    align-items: $align-items;
-    gap: $gap;
-}
+@use "../mixins";
 
 .content-wrapper{
-    @include flexDispaly($justify-content: space-between);
+    @include mixins.flexDispaly($justify-content: space-between);
     width: 100%;
     flex-wrap: wrap;
 
     main{
         width: 620px;
-        @include flexDispaly($flex-direction: column, $gap: 18px);
+        @include mixins.flexDispaly($flex-direction: column, $gap: 18px);
     }
 
     aside{

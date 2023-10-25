@@ -1,15 +1,5 @@
-$primary-text-color: #666;
-$secondar-text-color: #252525;
-
-@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
-    margin: 0;
-    color: $color;
-    font-family: $font-family, serif;
-    font-size: $fontsize;
-    font-style: $fontstyle;
-    font-weight: $fontweight;
-    line-height: $lineheight;
-}
+@use './mixins';
+@use './colors';
 
 .modal-window{
     display: none;
@@ -20,7 +10,7 @@ $secondar-text-color: #252525;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: colors.$modal-window-backdrop-color;
 }
 
 .modal-window.show-modal {
@@ -29,10 +19,10 @@ $secondar-text-color: #252525;
 }
 
 .modal-window-content {
-    background-color: white;
+    background-color: colors.$modal-window-background-color;
     margin: calc((100vh - 545px)/2) auto;
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid colors.$modal-window-border-color;
     width: fit-content;
 }
 
@@ -43,23 +33,22 @@ $secondar-text-color: #252525;
     margin-bottom: 1em;
 
     h2{
-        @include text( $fontsize: 18px, $fontweight: 700);
+        @include mixins.text($color: colors.$modal-window-primary-text-color, $fontsize: 18px, $fontweight: 700);
     }
 
     button{
+        padding: 0;
         border-radius: 38px;
         width: 38px;
         cursor: pointer;
         border: none;
         outline: none;
-        background: rgb(236, 236, 236);
-        color: $primary-text-color;
-        font-size: 32px;
+        background: colors.$modal-window-cancel-button-default-background-color;
+        @include mixins.text($color: colors.$modal-window-primary-text-color, $font-family: sans-serif, $fontsize: 32px);
     }
 
     button:hover{
         transition: 450ms;
-        background: rgb(221, 221, 221);
-        color: $secondar-text-color;
+        background: colors.$modal-window-cancel-button-active-background-color;
     }
 }

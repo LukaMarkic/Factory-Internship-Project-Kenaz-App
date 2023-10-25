@@ -1,17 +1,5 @@
-$action-text-color: #363F48;
-$number-of-user-text-color: #FFF;
-$action-background-color: #DDD;
-$number-of-user-background-color: #4D4382;
-
-@mixin text($color: $action-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
-    margin: 0;
-    color: $color;
-    font-family: $font-family, serif;
-    font-size: $fontsize;
-    font-style: $fontstyle;
-    font-weight: $fontweight;
-    line-height: $lineheight;
-}
+@use '../mixins';
+@use '../colors';
 
 .social-box{
     text-align: start;
@@ -19,7 +7,7 @@ $number-of-user-background-color: #4D4382;
     flex-direction: column;
     gap: 10px;
     h3{
-        @include text($fontsize: 24px, $fontweight: 700, $lineheight: 33px);
+        @include mixins.text($color: colors.$social-action-text-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
         margin-left: 3px;
         margin-bottom: 6px;
     }
@@ -27,10 +15,13 @@ $number-of-user-background-color: #4D4382;
 
 .social-network{
     display: flex;
-    
-    img{
+    background-color: colors.$social-action-background-color;
+
+    >img{
         width: 40px;
         height: 40px;
+        flex-shrink: 0;
+        object-fit: cover;
     }
     button{
         outline: none;
@@ -40,15 +31,15 @@ $number-of-user-background-color: #4D4382;
         min-width: 120px;
         flex-shrink: 0;
         padding: 12px 8px 10px 15px;
-        background-color: $action-background-color;
-        @include text($fontweight: 700, $lineheight: 18px);
+        background-color: colors.$social-action-background-color;
+        @include mixins.text($color: colors.$social-action-text-color, $fontweight: 700, $lineheight: 18px);
         width: fit-content;
     }
     
     p{
         width: 100%;
         padding: 11px 8px 12px 15px;
-        background-color: $number-of-user-background-color;
-        @include text($color: $number-of-user-text-color, $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
+        background-color: colors.$social-number-of-user-background-color;
+        @include mixins.text($color: colors.$social-number-of-user-text-color, $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
     }
 }

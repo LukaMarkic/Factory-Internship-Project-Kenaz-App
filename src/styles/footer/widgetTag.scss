@@ -1,37 +1,41 @@
-
-$default-text-color: #666;
-$default-background-color: #333;
-$selected-text-color: #CCC;
-$selected-background-color: #4D4382;
-
-@mixin disableSelectText{
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-text-select: none;
-    -webkit-user-select: none;
-}
+@use '../mixins';
+@use '../colors';
 
 .widget-tag-container{
     padding: 4px 9px 3px;
-    background-color: $default-background-color;
-    font-family: 'Varela', sans-serif;
-    font-size: 12px;
-    line-height: 20px;
-    color: $default-text-color;
-    @include  disableSelectText;
+    background-color: colors.$widget-tag-default-background-color;
+    @include mixins.text($color: colors.$widget-tag-default-text-color, $font-family: 'Varela', $fontsize: 12px, $lineheight: 20px);
 }
 
 .widget-tag-container:hover{
     cursor: pointer;
     transition: 450ms;
-    background: rgba($color: $selected-background-color, $alpha: 0.5);
-    color: $selected-text-color
+    background: rgba($color: colors.$widget-tag-selected-background-color, $alpha: 0.5);
+    color: colors.$widget-tag-selected-text-color
 }
 
 .widget-tag-container.selected{
     transition: 450ms;
-    background-color: $selected-background-color;
-    color: $selected-text-color
+    background-color: colors.$widget-tag-selected-background-color;
+    color: colors.$widget-tag-selected-text-color
+}
+
+
+.widget-tag-contianer{
+    @include mixins.flexDispaly($flex-direction: column, $gap: 31px);
+    h1{
+        @include mixins.text($color: colors.$widget-container-title, $fontsize: 24px, $fontweight: 700, $lineheight: 33px );
+        margin-top: -8px;
+    }
+    
+    >div{
+        width: 302px;
+        flex-wrap: wrap;
+        @include mixins.flexDispaly($gap: 3px );
+        >div{
+            width: fit-content;
+        }
+    }
 }
 
 

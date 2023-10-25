@@ -1,32 +1,5 @@
-$cover-title-text-color: #222;
-$content-text-color: #444;
-$content-background-color: #FFF;
-$author-title-color: #363F48;
-
-@mixin text($color: $cover-title-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
-    margin: 0;
-    color: $color;
-    font-family: $font-family, serif;
-    font-size: $fontsize;
-    font-style: $fontstyle;
-    font-weight: $fontweight;
-    line-height: $lineheight;
-}
-
-@mixin flexDispaly($flex-direction: row, $justify-content: flex-start, $align-items: flex-start, $gap:0){
-    display: flex;
-    flex-direction: $flex-direction;
-    justify-content: $justify-content;
-    align-items: $align-items;
-    gap: $gap;
-}
-
-@mixin limitTextDisplayOnLines($number-of-lines: 4){
-    display: -webkit-box;
-    -webkit-line-clamp: $number-of-lines;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
+@use '../mixins';
+@use '../colors';
 
 .single-article-cover{
     background-repeat: no-repeat;
@@ -43,14 +16,14 @@ $author-title-color: #363F48;
         position: absolute;
         bottom: 34px;
         left: 30px;
-        @include flexDispaly($flex-direction: column, $gap: 12px);
+        @include mixins.flexDispaly($flex-direction: column, $gap: 12px);
     
         p{
-            @include text( $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
+            @include mixins.text($color: colors.$single-article-cover-title-text-color, $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
         }
 
         h1{
-            @include text( $fontsize: 44px, $fontweight: 700);
+            @include mixins.text($color: colors.$single-article-cover-title-text-color, $fontsize: 44px, $fontweight: 700);
         }
     }
 }
@@ -64,14 +37,14 @@ $author-title-color: #363F48;
 
 .single-article-content{
     text-align: start;
-    background-color: $content-background-color;
+    background-color: colors.$single-article-content-background-color;
     p{
-        @include text($color: $content-text-color, $fontsize: 14px, $lineheight: 22px);
+        @include mixins.text($color: colors.$single-article-content-text-color, $fontsize: 14px, $lineheight: 22px);
         margin: 37px 18px 42px 30px;
     }
 
     h3{
-        @include text($color: $content-text-color, $fontweight: 700);
+        @include mixins.text($color: colors.$single-article-content-text-color, $fontweight: 700);
         margin: 30px 20px 18px 30px !important;
     }
 
@@ -80,7 +53,6 @@ $author-title-color: #363F48;
     }
 
     img{
-        
         object-fit: cover;
         width: 100%;
         border-top: 1px solid #DDD;
@@ -89,7 +61,7 @@ $author-title-color: #363F48;
 
     .source-container{
         
-        @include text($color: $content-text-color, $fontsize: 14px, $lineheight: 22px);
+        @include mixins.text($color: colors.$single-article-content-text-color, $fontsize: 14px, $lineheight: 22px);
         margin: 30px 20px 18px 30px;
         a{
             text-decoration: underline;
@@ -100,16 +72,16 @@ $author-title-color: #363F48;
 
 .single-article-author{
     text-align: start;
-    background-color: $content-background-color;
+    background-color: colors.$single-article-content-background-color;
     width: calc(100% - 55px);
     padding: 16px 25px 30px 30px;
     >h2{
-        @include text($color: $author-title-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
+        @include mixins.text($color: colors.$single-article-author-title-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
         margin-bottom: 30px;
     }
 
     >div{
-        @include flexDispaly($justify-content: space-between);
+        @include mixins.flexDispaly($justify-content: space-between);
         img{
             width: 110px;
             height: 110px;
@@ -117,7 +89,7 @@ $author-title-color: #363F48;
         }
         p{
             width: 435px;
-            @include text($color: $content-text-color, $font-family: 'Varela', $fontsize: 13px, $lineheight:20px);
+            @include mixins.text($color: colors.$single-article-content-text-color, $font-family: 'Varela', $fontsize: 13px, $lineheight:20px);
         }
     }
 }

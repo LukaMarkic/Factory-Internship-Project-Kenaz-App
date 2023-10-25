@@ -1,10 +1,4 @@
-@mixin flexDispaly($flex-direction: row, $justify-content: start, $align-items: start, $gap:0){
-    display: flex;
-    flex-direction: $flex-direction;
-    justify-content: $justify-content;
-    align-items: $align-items;
-    gap: $gap;
-}
+@use './mixins';
 
 .image-carousel{
     position: relative;
@@ -47,24 +41,34 @@
         bottom: 20px;
         width: 900px;
         flex-shrink: 0;
-        @include flexDispaly($justify-content: space-between);
+        @include mixins.flexDispaly($justify-content: space-between);
 
         >img{
             cursor: pointer;
             width: 120px;
             height: 120px;
-            opacity: 0.75;
+            opacity: 0.375;
         }
 
         img:hover{
             transition: 750ms;
-            opacity: 1;
-            scale: 1.1;
+            opacity: 0.95;
+            scale: 1.05;
         }
 
         img:not(:hover){
             transition: 750ms;
         }
-        
+
+        .img-active{
+            opacity: 1;
+            scale: 1.1;
+        }
+
+        .img-active:hover{
+            transition: 750ms;
+            scale: 1.1;
+        }
+
     }
 }

@@ -1,58 +1,42 @@
-$top-menu-background-color: #3e3668;
-$background-post-color: #4d4382;
-$background-post-color-active:#453c75;
-$primary-text-color: #FFF;
-$secondary-text-color: #ACB3BA;
-$active-color: #FCC44D;
-
-@mixin text($color: $primary-text-color, $font-family: 'Bitter', $fontsize: 18px, $fontstyle: normal, $fontweight: 400, $lineheight: normal){
-    margin: 0;
-    color: $color;
-    font-family: $font-family, serif;
-    font-size: $fontsize;
-    font-style: $fontstyle;
-    font-weight: $fontweight;
-    line-height: $lineheight;
-}
+@use '../mixins';
+@use '../colors';
 
 .sidebar{
     width: 100%;
-    background-color: $background-post-color;
+    background-color: colors.$sidebar-background-post-color;
     height: 665px;
     margin-bottom: 30px;
 }
 
 .sidebar-top-menu{
-    background-color: $top-menu-background-color;
-    display: flex;
-    justify-content: space-between;
+    background-color: colors.$sidebar-top-menu-background-color;
+    @include mixins.flexDispaly($justify-content: space-between, $align-items: auto);
     padding: 18px 30px;
     >button{
         cursor: pointer;
         border: none;
         background: transparent;
         text-decoration: underline;
-        color: $primary-text-color;
         text-underline-offset: 5px;
         padding: 0;
-        @include text($font-family: 'Varela Round', $fontsize: 14px, $fontstyle: normal)
+        @include mixins.text($color: colors.$sidebar-primary-text-color, $font-family: 'Varela Round', $fontsize: 14px, $fontstyle: normal)
     }
 
     >button:hover{
-        color: rgba($color: $active-color, $alpha: 0.6)
+        color: rgba($color: colors.$sidebar-active-color, $alpha: 0.6)
     }
 
     >button.active{
-        color: $active-color;
+        color: colors.$sidebar-active-color;
     }
     
 }
 
 .sidebar-post{
-    background-color: $background-post-color;
+    background-color: colors.$sidebar-background-post-color;
     padding: 14px 30px 0px;
     align-items: center;
-    border-bottom: 1px solid rgba($color: black, $alpha: 0.2);
+    border-bottom: 1px solid colors.$sidebar-post-border-bottom-color;
 
     >img{
         align-self: flex-start;
@@ -61,22 +45,22 @@ $active-color: #FCC44D;
         width: 165px;
         height: fit-content;
         p{
-            color: $secondary-text-color !important;
+            color: colors.$sidebar-secondary-text-color !important;
         }
         h3{
-            color: $primary-text-color !important;
+            color: colors.$sidebar-primary-text-color !important;
         }
     }
 
     .comment-status-container{
         top: 21px;
         left: 160px;
-        color: $secondary-text-color !important;
+        color: colors.$sidebar-secondary-text-color !important;
     }
 }
 
 .sidebar-post:hover{
     transition: 450ms;
-    background-color: $background-post-color-active;
+    background-color: colors.$sidebar-background-post-color-active;
 }
 
