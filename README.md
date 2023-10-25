@@ -1,14 +1,14 @@
 # Factory Internship Project Kenaz App
 
-Ovaj projekt predstvlja projektni zadatak izrađen kroz stručnu praksu u tvrtki Factory d.o.o.. Projekt predstvalja mrežnu starnicu za pristup članicima i vjetima, kao i raspored istih kroz odgovarajuće kategorije (News, Bussines, Sport, Life, Tech i Tevel).
+Ovaj projekt predstavlja projektni zadatak izrađen kroz stručnu praksu u tvrtki Factory d.o.o.. Projekt predstvalja mrežnu starnicu za pristup članicima i vijestima, kao i raspored istih kroz odgovarajuće kategorije (News, Bussines, Sport, Life, Tech i Travel).
 
 ## Korištene tehnologije
 
-Aplikacije je izrađena korištenjem JavaScript razvojnog okvira [ReactJS](https://react.dev/). Za potrebe stilizacije korišten je CSS kao i CSS predproceski alat za stiliziranje [Syntactically Awesome Style Sheets -SASS](https://sass-lang.com/) (.scss).
+Aplikacija je izrađena korištenjem JavaScript razvojnog okvira [ReactJS](https://react.dev/). Za potrebe stilizacije korišten je CSS kao i CSS predproceski alat za stiliziranje [Syntactically Awesome Style Sheets -SASS](https://sass-lang.com/) (.scss).
 
 ## Strukutra
 
-Zbog optimizacijskih razloga (brže ponovne izgradnje), webpack obrađuje samo datoteke koje se nalze unutar /src direktorija. Unutar ovog dirktorija je sadžana glavna logika aplikacije jer upravo u njemu trebaju biti sadžane skriptne datoteka (.js) i datoteke za stilsko uređenje dokumenta (.css i .scss). U nastavku je moguće vidjeti strukturu /src direktorija.
+Zbog optimizacijskih razloga (brže ponovne izgradnje), webpack obrađuje samo datoteke koje se nalze unutar /src direktorija. Unutar ovog dirktorija je sadržana glavna logika aplikacije jer upravo u njemu trebaju biti sadžane skriptne datoteka (.js) i datoteke za stilsko uređenje dokumenta (.css i .scss). U nastavku je moguće vidjeti strukturu /src direktorija.
 <br/>
 
 <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
@@ -29,7 +29,7 @@ Zbog optimizacijskih razloga (brže ponovne izgradnje), webpack obrađuje samo d
 <br />
 
 Dirketorij se sastoji od podirektorija: components, context, data, help, hooks, images, pages, styles. Kao i JavaScript datoteke App.js i index.js.
-Izgled components direktorija prikazan je u nastavaku. Unutar tog direktorija sadržane su same React komponente kao što su Header koji predstavlja zaglavlje. Te komponente su također rapoređene u odgovarajuće direkorije prema njihovim svojstvima, primjerice one komponete koje se nalaze unutar podnožja (engl. _footer_) smještene su u direktorij /footer.
+Izgled /components direktorija prikazan je u nastavaku. Unutar tog direktorija sadržane su same React komponente kao što su Header koji predstavlja zaglavlje. Te komponente su također rapoređene u odgovarajuće direkorije prema njihovim svojstvima, primjerice one komponete koje se nalaze unutar podnožja (engl. _footer_) smještene su u direktorij /footer.
 
 <div style="background-color: #333; color: white; padding: 10px; border-radius: 5px">
 
@@ -41,7 +41,7 @@ Izgled components direktorija prikazan je u nastavaku. Unutar tog direktorija sa
   - /category
     - /list
       - ArticleListElement.js
-        - CategoryArticlesList.js
+      - CategoryArticlesList.js
     - ArticleTumbnail.js
     - CategoryArticlesBox.js
     - CategoryCarousel.js
@@ -50,6 +50,8 @@ Izgled components direktorija prikazan je u nastavaku. Unutar tog direktorija sa
   - /footer
     - Footer.js
     - FooterPost.js
+    - InfoFooter.js
+    - Newsletter.js
     - TwitterFeed.js
     - WidgetTag.js
   - /shared
@@ -185,6 +187,8 @@ Direktorij /styles sadrži datoteke za stilsko uređene stranice.
   - /footer
     - footer.scss
     - footerPost.scss
+    - infoFooter.scss
+    - newsletter.scss
     - twitterFeed.scss
     - widgetTag.scss
   - /modules
@@ -199,6 +203,8 @@ Direktorij /styles sadrži datoteke za stilsko uređene stranice.
   - /single-page
     - commentSection.scss
     - singleArticle.scss
+  - \_colors.scss
+  - \_mixins.scss
   - App.css
   - coverArticle.scss
   - imageCarousel.scss
