@@ -1,6 +1,6 @@
 # Factory Internship Project Kenaz App
 
-Ovaj projekt predstavlja projektni zadatak izrađen kroz stručnu praksu u tvrtki Factory d.o.o.. Projekt predstvalja mrežnu starnicu za pristup članicima i vijestima, kao i raspored istih kroz odgovarajuće kategorije (News, Bussines, Sport, Life, Tech i Travel).
+Ovaj projekt predstavlja projektni zadatak izrađen kroz stručnu praksu u tvrtki Factory d.o.o.. Projekt predstavlja mrežnu starnicu za pristup članicima i vijestima, kao i raspored istih kroz odgovarajuće kategorije (News, Bussines, Sport, Life, Tech i Travel).
 
 ## Korištene tehnologije
 
