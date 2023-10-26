@@ -2,11 +2,7 @@ import React, { useEffect } from "react";
 import "../styles/page.scss";
 import Banner from "../components/shared/Banner";
 import ContentWrapper from "../components/shared/ContentWrapper";
-import {
-  AuthorInfo,
-  Content,
-  Cover,
-} from "../components/single-page/SingleArticle";
+import { AuthorInfo, Content, Cover } from "../components/single-page/SingleArticle";
 import { useLocation } from "react-router-dom";
 import useCategoryContext from "../hooks/useCategoryContext";
 import authorsData from "../data/authorData.json";
@@ -26,7 +22,7 @@ function Single() {
     setActivePageIndexByCategortyId(article.categoryId);
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <div className="page-container">
       <Banner height="120px" margin={"16px 0px 18px"}></Banner>
