@@ -53,6 +53,7 @@ export const CategoryProvider = ({ children }) => {
 
   const openArticle = (article) => {
     navigate("/Single", { state: { article: article } });
+    window.location.reload(true);
     window.scrollTo(0, 0);
   };
 
