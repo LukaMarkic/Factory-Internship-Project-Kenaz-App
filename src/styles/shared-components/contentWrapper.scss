@@ -4,12 +4,10 @@
     @include mixins.flexDispaly($justify-content: space-between);
     width: 100%;
     flex-wrap: wrap;
-
     main{
         width: 620px;
         @include mixins.flexDispaly($flex-direction: column, $gap: 18px);
     }
-
     aside{
         width: 300px;     
     }

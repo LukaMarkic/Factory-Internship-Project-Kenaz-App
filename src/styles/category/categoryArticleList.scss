@@ -7,17 +7,14 @@
     background-color: colors.$article-list-content-background-color;
     padding-top: 15px;
     padding-bottom: 18px;
-    
     >h2{
         @include mixins.text($color: colors.$article-list-primary-text-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
         margin-bottom: 36px;
         margin-left: 30px;
     }
-
     .listed-articles-continer{
         @include mixins.flexDispaly($flex-direction: column, $gap: 26px);
     }
-
     .select-listed-page-continer{
         margin: 32px 18px 12px 30px;
         @include mixins.flexDispaly($gap: 5px);
@@ -29,7 +26,6 @@
             background-color: colors.$article-list-page-button-background-color;
             @include mixins.text($color: colors.$article-list-page-button-primary-text-color, $font-family: 'Varela Round', $fontsize: 14px);
         }
-
         >button.active{
             background-color: colors.$article-list-page-button-background-active-color;
             color: colors.$article-list-page-button-secondary-text-color;
@@ -43,14 +39,12 @@
     border-bottom: 1px solid colors.$article-list-border-color;
     width: 572px;
     @include mixins.flexDispaly($flex-direction: column, $gap: 16px);
-
     >h3{
         
         max-width: 496px;
         @include mixins.text($color: colors.$article-list-primary-text-color, $fontsize: 24px, $fontweight: 700, $lineheight: 28px);
         @include mixins.limitTextDisplayOnLines(2);
     }
-
     button{
         position: relative;
         left: 190px;
@@ -61,19 +55,15 @@
         padding: 7px 20px 6px;
         margin-bottom: -6px;
     }
-
     button:hover{
         background-color: colors.$article-list-read-article-button-background-acitve-color;
     }
-
     .share-box{
         height: 42px;
         flex-shrink: 0;
     }
-
     .info-banner{
         @include mixins.flexDispaly($gap: 20px);
-
         >div{
             @include mixins.flexDispaly( $gap: 4px);
             img{
@@ -86,7 +76,6 @@
             }
         }
     }
-
     .content-banner{
         @include mixins.flexDispaly($gap: 19px);
         >img{

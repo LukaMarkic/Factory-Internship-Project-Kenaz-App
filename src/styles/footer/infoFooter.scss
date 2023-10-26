@@ -13,14 +13,12 @@
 
 .footer-logo-container{
     @include mixins.flexDispaly($gap: 18px );
-
     img{
         cursor: pointer;
         width: 28px;
         height: 43px;
         padding-bottom: 1.22px;
     }
-
     h1{
         cursor: pointer;
         @include mixins.text($color: colors.$info-footer-kenaz-title-color, $fontsize: 29.623px, $lineheight: 51.807px);

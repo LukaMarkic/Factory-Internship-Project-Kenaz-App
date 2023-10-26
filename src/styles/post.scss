@@ -7,19 +7,16 @@
     height: 98px;
     position: relative;
     text-align: start;
-
     >img{
         width: 70px;
         height: 70px;
         object-fit: cover;
         border: 2px solid colors.$post-image-border-color;
     }
-
     .post-info{
         flex-shrink: 0;
         p{
             @include mixins.text($color: colors.$post-secondary-text-color, $font-family: 'Varela Round', $fontsize: 10px, $lineheight: 16px);
-            
         }
         h3{
             @include mixins.text($color: colors.$post-primary-text-color, $fontsize: 14px, $fontweight: 700);

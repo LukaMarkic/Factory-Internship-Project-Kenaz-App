@@ -6,7 +6,6 @@
     flex-shrink: 0;
     background-color: colors.$footer-background-color;
     border-top: 23px solid colors.$footer-border-color;
-
     >hr{
         height: 3px;
         flex-shrink: 0;
@@ -23,7 +22,6 @@
         @include mixins.flexDispaly($gap: 17px);
         margin-bottom: 68px;
     }
-
     >div:nth-child(2){
         @include mixins.flexDispaly($justify-content: space-between);
     }

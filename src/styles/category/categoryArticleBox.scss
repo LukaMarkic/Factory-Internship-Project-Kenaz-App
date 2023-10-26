@@ -14,7 +14,6 @@
         h2{
             @include mixins.text($color: colors.$article-primary-text-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
         }
-
         a{
             @include mixins.text($color: colors.$article-link-color, $font-family: 'Varela Round', $fontsize: 14px, $lineheight: 17px);
             text-underline-offset: 5px;

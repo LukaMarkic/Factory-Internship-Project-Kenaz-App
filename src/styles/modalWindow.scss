@@ -31,11 +31,9 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1em;
-
     h2{
         @include mixins.text($color: colors.$modal-window-primary-text-color, $fontsize: 18px, $fontweight: 700);
     }
-
     button{
         padding: 0;
         border-radius: 38px;
@@ -46,7 +44,6 @@
         background: colors.$modal-window-cancel-button-default-background-color;
         @include mixins.text($color: colors.$modal-window-primary-text-color, $font-family: sans-serif, $fontsize: 32px);
     }
-
     button:hover{
         transition: 450ms;
         background: colors.$modal-window-cancel-button-active-background-color;

@@ -27,7 +27,6 @@
         @include mixins.text($color: colors.$widget-container-title, $fontsize: 24px, $fontweight: 700, $lineheight: 33px );
         margin-top: -8px;
     }
-    
     >div{
         width: 302px;
         flex-wrap: wrap;

@@ -8,11 +8,9 @@ $nav-colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
 .header-container{
     @include mixins.flexDispaly($flex-direction: column);
     min-width: 940px;
-    
     >div:nth-child(1){
         background-color: colors.$header-top-layer-color;
     }
-
     >div:nth-child(2){
         background-color: colors.$header-bottom-layer-color;
     }
@@ -22,14 +20,12 @@ $nav-colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
     display: inherit;
     justify-content: center;
     width: 100%;
-
     >div, >nav{
         display: inherit;
         flex-direction: row;
         width: 940px;
         height: 53px; 
     }
-
     @for $i from 1 through 6 {
         >nav>a:nth-child(#{$i}) {
             box-shadow: inset 0 -4px 0 -1px list.nth($nav-colors, $i);
@@ -38,7 +34,6 @@ $nav-colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
             box-shadow: inset 0 -56px 0 -1px list.nth($nav-colors, $i);
         }
     }
-
     >nav>a{
         text-decoration: none;
         padding: 0px 20px;
@@ -51,12 +46,10 @@ $nav-colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
 .header-logo-container{
     display: flex;
     gap: 9px;
-    
     img{
         cursor: pointer;
         @include mixins.icon(colors.$header-icon-background-color, 14px, 21px, 15px 26px 17px 23px);
     }
-
     h1{
         cursor: pointer;
         margin: 0;
@@ -69,7 +62,6 @@ $nav-colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
 
 .header-top-stripe{
     @include mixins.flexDispaly($justify-content: space-between);
-
     >div{
         display: inherit;
         img{

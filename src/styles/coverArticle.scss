@@ -9,7 +9,6 @@ $cover-article-hover-button-animation-duration: 1750ms;
     height: 425px;
     margin-bottom: 19px;
     position: relative;
-
     .left-gray-icon, .right-gray-icon{
         cursor: pointer;
         position: absolute;
@@ -18,20 +17,16 @@ $cover-article-hover-button-animation-duration: 1750ms;
         width: 36px;
         height: 53px; 
     }
-
     .left-gray-icon:hover, .right-gray-icon:hover{
         transition: $cover-article-scale-animation-duration;
         scale: 1.15;
     }
-
     .left-gray-icon:not(:hover), .right-gray-icon:not(:hover) {
         transition: $cover-article-scale-animation-duration;
      } 
-
     .left-gray-icon{
         left: 28px;
     }
-
     .right-gray-icon{
         right: 28px;
     }
@@ -44,7 +39,6 @@ $cover-article-hover-button-animation-duration: 1750ms;
     background-size: cover;
     text-align: start;
     position: relative;
-
     >div{
         width: 588px;
         height: 113px;
@@ -52,10 +46,8 @@ $cover-article-hover-button-animation-duration: 1750ms;
         top: 241px;
         left: 30px;
         @include mixins.flexDispaly($flex-direction: column, $gap: 12px);
-
         >div{
             @include mixins.flexDispaly;
-    
             >p{
                 @include mixins.text($color: colors.$cover-article-primary-text-color, $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
             }
@@ -69,13 +61,11 @@ $cover-article-hover-button-animation-duration: 1750ms;
                 margin-top: 2px;
             }
         }
-
         h1{
             @include mixins.limitTextDisplayOnLines($number-of-lines: 2);
             @include mixins.text($color: colors.$cover-article-primary-text-color, $fontsize: 34px, $fontweight: 700);
         }
     }
-
     >button{
         cursor: pointer;
         border: 1px solid colors.$cover-article-button-border-color;

@@ -3,11 +3,9 @@
 .image-carousel{
     position: relative;
     margin-bottom: 20px;
-
     img{
         flex-shrink: 0;
     }
-
     .search-image-icon{
         cursor: pointer;
         position: absolute;
@@ -17,7 +15,6 @@
         top: 120px;
         left: 440px;
     }
-
     .left-gray-icon, .right-gray-icon{
         cursor: pointer;
         position: absolute;
@@ -26,15 +23,12 @@
         width: 36px;
         height: 53px; 
     }
-
     .left-gray-icon{
         left: 28px;
     }
-
     .right-gray-icon{
         right: 28px;
     }
-
     .image-gallery-list{
         position: absolute;
         left: 20px;
@@ -42,33 +36,27 @@
         width: 900px;
         flex-shrink: 0;
         @include mixins.flexDispaly($justify-content: space-between);
-
         >img{
             cursor: pointer;
             width: 120px;
             height: 120px;
             opacity: 0.375;
         }
-
         img:hover{
             transition: 750ms;
             opacity: 0.95;
             scale: 1.05;
         }
-
         img:not(:hover){
             transition: 750ms;
         }
-
         .img-active{
             opacity: 1;
             scale: 1.1;
         }
-
         .img-active:hover{
             transition: 750ms;
             scale: 1.1;
         }
-
     }
 }

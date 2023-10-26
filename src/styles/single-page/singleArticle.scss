@@ -9,7 +9,6 @@
     min-width: 940px;
     height: 588px;
     margin-bottom: 8px;
-    
     >div{
         width: 751px;
         height: fit-content;
@@ -17,7 +16,6 @@
         bottom: 34px;
         left: 30px;
         @include mixins.flexDispaly($flex-direction: column, $gap: 12px);
-    
         p{
             @include mixins.text($color: colors.$single-article-cover-title-text-color, $font-family: 'Varela Round', $fontsize: 12px, $lineheight: 14px);
         }
@@ -42,25 +40,20 @@
         @include mixins.text($color: colors.$single-article-content-text-color, $fontsize: 14px, $lineheight: 22px);
         margin: 37px 18px 42px 30px;
     }
-
     h3{
         @include mixins.text($color: colors.$single-article-content-text-color, $fontweight: 700);
         margin: 30px 20px 18px 30px !important;
     }
-
     h3 + p{
         margin-top: 18px;
     }
-
     img{
         object-fit: cover;
         width: 100%;
         border-top: 1px solid #DDD;
         border-bottom: 1px solid #DDD;
     }
-
     .source-container{
-        
         @include mixins.text($color: colors.$single-article-content-text-color, $fontsize: 14px, $lineheight: 22px);
         margin: 30px 20px 18px 30px;
         a{
@@ -79,7 +72,6 @@
         @include mixins.text($color: colors.$single-article-author-title-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
         margin-bottom: 30px;
     }
-
     >div{
         @include mixins.flexDispaly($justify-content: space-between);
         img{

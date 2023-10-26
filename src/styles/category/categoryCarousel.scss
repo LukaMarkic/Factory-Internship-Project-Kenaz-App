@@ -15,7 +15,6 @@
             @include mixins.text($color: colors.$article-primary-text-color, $fontsize: 24px, $fontweight: 700, $lineheight: 33px);
         }
     }
-
     >div:nth-child(2){
         gap: 30px;
         height: 220px; 

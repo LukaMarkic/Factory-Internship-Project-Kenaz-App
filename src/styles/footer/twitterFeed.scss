@@ -14,7 +14,6 @@
 }
 
 .twitter-post{
-    
     >div{
         display: flex;
         align-items: end;
@@ -24,11 +23,9 @@
             width: 24px;
             height: 18px;
         }
-
         p{
             @include mixins.text($color: colors.$twitter-secondary-text-color, $fontsize: 14px, $lineheight: 16px);
         }
-        
     }
     >p{
         @include mixins.limitTextDisplayOnLines();

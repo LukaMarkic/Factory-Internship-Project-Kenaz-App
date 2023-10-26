@@ -21,15 +21,12 @@
         padding: 0;
         @include mixins.text($color: colors.$sidebar-primary-text-color, $font-family: 'Varela Round', $fontsize: 14px, $fontstyle: normal)
     }
-
     >button:hover{
         color: rgba($color: colors.$sidebar-active-color, $alpha: 0.6)
     }
-
     >button.active{
         color: colors.$sidebar-active-color;
-    }
-    
+    } 
 }
 
 .sidebar-post{
@@ -37,7 +34,6 @@
     padding: 14px 30px 0px;
     align-items: center;
     border-bottom: 1px solid colors.$sidebar-post-border-bottom-color;
-
     >img{
         align-self: flex-start;
     }
@@ -51,7 +47,6 @@
             color: colors.$sidebar-primary-text-color !important;
         }
     }
-
     .comment-status-container{
         top: 21px;
         left: 160px;

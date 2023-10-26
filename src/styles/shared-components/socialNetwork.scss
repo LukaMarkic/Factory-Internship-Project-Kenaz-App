@@ -16,7 +16,6 @@
 .social-network{
     display: flex;
     background-color: colors.$social-action-background-color;
-
     >img{
         width: 40px;
         height: 40px;
@@ -35,7 +34,6 @@
         @include mixins.text($color: colors.$social-action-text-color, $fontweight: 700, $lineheight: 18px);
         width: fit-content;
     }
-    
     p{
         width: 100%;
         padding: 11px 8px 12px 15px;
