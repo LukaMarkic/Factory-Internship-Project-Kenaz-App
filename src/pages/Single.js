@@ -26,6 +26,7 @@ function Single() {
     setActivePageIndexByCategortyId(article.categoryId);
     window.scrollTo(0, 0);
   }, []);
+  
   return (
     <div className="page-container">
       <Banner height="120px" margin={"16px 0px 18px"}></Banner>
