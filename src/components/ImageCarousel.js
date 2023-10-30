@@ -94,7 +94,6 @@ function ImageCarousel() {
         title={title}
         isOpen={modalIsOpen}
         setIsOpen={setModalIsOpen}
-        onClose={() => {}}
       >
         {modalImageSrc !== null && (
           <img src={modalImageSrc} style={{ height: "450px" }} />
